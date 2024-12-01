@@ -25,8 +25,12 @@ Our team includes:
         </figure>
         <figure>
             <img src="/images/co-authors/fidel_gonzalez.png" width="100" height="auto">
-            <figcaption><a href="https://sites.google.com/view/fidelgonzalez" target="_blank">Fidel Gonzalez</a></figcaption>
-        </figure>        
+            <figcaption><a href="https://sites.google.com/view/fidelgonzalez" target="_blank">Fidel González</a></figcaption>
+        </figure>
+                <figure>
+            <img src="/images/co-authors/jimena_gonzalez.png" width="100" height="auto">
+            <figcaption><a href="https://jimegon.github.io" target="_blank">Jimena González-Ramírez</a></figcaption>
+        </figure>          
         <figure>
             <img src="/images/co-authors/sumeet_gulati.png" width="100" height="auto">
             <figcaption><a href="https://sumeetgulati.landfood.ubc.ca/" target="_blank">Sumeet Gulati</a></figcaption>
