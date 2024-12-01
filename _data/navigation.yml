@@ -5,23 +5,17 @@
 # prevent it from being included in the site.
 
 main:
-  - title: "Publications"
+  - title: "Literature"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
+  - title: "Games and Experiments"
+    url: /games/    
 
-  - title: "Teaching"
-    url: /teaching/    
+  - title: "Videos"
+    url: /videos/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Podcasts"
+    url: /podcasts/
         
-  - title: "Blog Posts"
-    url: /year-archive/
     
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+
