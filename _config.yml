@@ -21,7 +21,7 @@ repository               : "just-enviro-econ/just-enviro-econ.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : #"profile.png"
+  avatar           : "profile.png"
   name             : "Just Enviro Econ (or longer name)"
   pronouns         : # example: "she/her"  
   bio              : "Consider adding a short blurb about our project or removing side bar"
