@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Equity and Environmental Justice Resources for Economics Courses "
+title: "Equity and Environmental Justice Resources for Environmental and Natural Resource Economics Courses"
 author_profile: true
 redirect_from: 
   - /about/
