@@ -423,11 +423,6 @@ figure {
   align-items: center; /* Center items horizontally */
 }
 
-img { 
-  max-width: 100%; /* Ensure images are responsive */ 
-  height: auto; /* Maintain aspect ratio */
-}
-
 figcaption {
   color:darkblue;
   margin-top: 0.5px; /* Margin between image and caption */
