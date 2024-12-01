@@ -399,3 +399,209 @@
   font-size: $type-size-6;
   text-transform: uppercase;
 }
+
+/*------------------------------------------------------------
+              CODE ADDED BY JIMEGON
+------------------------------------------------------------*/
+
+/*------------------------------------------------------------*/
+/* Code for flexbox */
+/*------------------------------------------------------------*/
+.image-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow images to wrap to the next line */
+  align-items:center;
+  justify-content: center;
+}
+
+figure {
+  max-width: 24%;
+  margin: 10px; /* Margin between images */
+  text-align: center; /* Center-align the image and caption */
+  display: flex; /* Add flex display */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+
+
+figcaption {
+  color:darkblue;
+  margin-top: 0.5px; /* Margin between image and caption */
+  font-size: 20px; /* Font size of the caption */
+  text-align: center; /* Center-align text */
+}
+
+/*------------------------------------------------------------*/
+/* Code for flexbox */
+/*------------------------------------------------------------*/
+.image-container2 {
+  display: flex;
+  flex-wrap: wrap; /* Allow images to wrap to the next line */
+  align-items:center;
+  justify-content: center;
+}
+
+figure {
+  max-width: 30%;
+  margin: 10px; /* Margin between images */
+  text-align: center; /* Center-align the image and caption */
+  display: flex; /* Add flex display */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center items horizontally */
+}
+
+
+
+figcaption {
+  color:black;
+  margin-top: 0.5px; /* Margin between image and caption */
+  font-size: 14px; /* Font size of the caption */
+  text-align: center; /* Center-align text */
+}
+
+
+
+/*------------------------------------------------------------
+                  Code for Collapsible
+------------------------------------------------------------*/
+summary {
+  background: darkblue;
+  color:white;
+  padding: 5px;
+  font-size: larger;
+  border: 2px solid transparent;
+  outline: none;
+  &:focus {
+    border-color: black;
+  }
+}
+
+summary.id1 {
+  background: purple;
+  color:white;
+  padding: 5px;
+  font-size: larger;
+  border: 2px solid transparent;
+  outline: none;
+  &:focus {
+    border-color: black;
+  }
+}
+
+summary.id2 {
+  background: #ff0080;
+  color:white;
+  padding: 5px;
+  font-size: larger;
+  border: 2px solid transparent;
+  outline: none;
+  &:focus {
+    border-color: black;
+  }
+}
+
+details {
+  max-width: 100%;
+  box-sizing: border-box;
+  margin-top: 5px;
+  padding-bottom: 10px;
+}
+.content {
+  border-top: none;
+  padding: 10px;
+  border: 2px solid #8dd792;
+  border-top: none;
+}
+
+p {
+  margin: 0;
+  padding-bottom: 10px;
+  text-align: justify;
+  &:last-child {
+    padding: 0;
+  }
+}
+
+.sub_detail {
+  margin-left:20px;
+}
+
+/* -------------------------------------------
+          Alignment 
+--------------------------------------------*/
+
+.right-align {
+  text-align: right;
+}
+
+.center-align {
+  text-align: center;
+}
+
+.left-align {
+  text-align: left;
+}
+
+
+/* -------------------------------------------
+          to have clickable images
+--------------------------------------------*/
+
+.image-link {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+.image-link:hover {
+  transform: scale(2);
+}
+
+/* -------------------------------------------
+          Podcast Fonts
+--------------------------------------------*/
+
+
+  .title-podcast {
+    font-size: 30px; /* Change font size */
+    color: black; /* Change font color */
+    font-family: 'Arial', sans-serif; /* Change font family */
+  }
+
+  .bold-podcast {
+    font-size: 18px; /* Change font size */
+    font-weight: bold; /* Make text bold */ 
+    display: inline-block;  /* Change to block to control spacing */
+    margin: 0;       /* Remove any default margins */
+    margin-right: 0; /* Remove any right margin */
+    padding: 0;      /* Remove any default padding */
+    color: black; /* Change font color */
+    /*font-family: 'Arial', sans-serif; /* Change font family */
+  }
+
+  .text-podcast {
+    font-size: 18px; /* Change font size */
+    display: inline-block;  /* Change to block to control spacing */
+    color: default; /* Change font color */
+    font-family: 'Arial', sans-serif; /* Change font family */
+    margin: 0; /* Remove any default margins */
+    padding: 0; /* Remove any default padding */
+  }
+
+  .small-podcast {
+    font-size: 16px; /* Change font size */
+    color: black; /* Change font color */
+    font-family: 'Arial', sans-serif; /* Change font family */
+  }
+
+
+  .links-podcast {
+    font-size: 14px; /* Change font size */
+    color: #1a73e8; /* Change font color */
+    text-decoration: none;  /* Removes the underline from the link */
+    font-family: 'Arial', sans-serif;  /* Sets the font family */
+  }
+
+  .links-podcast a:hover {
+    text-decoration: underline;  /* Underline  link on hover */
+    color: #0c47a1;  /* Change color on hover */
+  }
