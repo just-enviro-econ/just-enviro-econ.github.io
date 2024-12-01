@@ -7,6 +7,15 @@ redirect_from:
   - /about.html
 ---
 
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-NGSNCK5G');</script>
+<!-- End Google Tag Manager -->
+
+
 Welcome! This website accompanies our paper titled: **From Efficiency to Inclusion: The Present and Future of Undergraduate Teaching in Environmental and Natural Resource Economics** [Insert Link]
 
 The goal of the website is to offer resources to instructors who want to incorporate equity and justice into environmental and natural resource economics undergraduate courses. 
@@ -14,6 +23,10 @@ The goal of the website is to offer resources to instructors who want to incorpo
 Our team includes:
 
 <body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-NGSNCK5G"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 <div class="image-container">
         <figure>
             <img src="/images/co-authors/sarah_jacobson.png" width="100" height="auto">
