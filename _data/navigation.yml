@@ -8,14 +8,9 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Games and Experiments"
-    url: /games/    
-
-  - title: "Videos"
-    url: /videos/    
-    
-  - title: "Podcasts"
-    url: /podcasts/
+   
+  - title: "Podcasts and Videos"
+    url: /media/
         
     
 
