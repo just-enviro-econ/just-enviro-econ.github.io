@@ -13,24 +13,15 @@ author_profile: true
 
 <br>
 
-<<<<<<< HEAD
-# __Natural Resources__
-
-=======
-# __Peer-Reviewed Journal Articles__
-Hola soy Fidel 
->>>>>>> df4244362dd2739e5a77f51eb2c8db7f873950ba
 <details open>
 <summary>
 Natural Resources
 </summary>
 
 {% for post in site.publications reversed %}
-  {% if post.type == 'pr' %}
-      {% if post.topic == 'Natural Resources' %}
+    {% if post.category == 'natural resources' %}
       {% include archive-single-publications.html %}
-      {% endif %}
-  {% endif %}
+    {% endif %}
 {% endfor %}
 
 </details>
@@ -38,14 +29,12 @@ Natural Resources
 
 <details open>
 <summary class="id1">
-Games and Experiments
+Climate Change
 </summary>
 
 {% for post in site.publications reversed %}
-  {% if post.type == 'pr' %}
-    {% if post.category == 'games' %}
+  {% if post.category == 'climate change' %}
     {% include archive-single-publications.html %}
-    {% endif %}
   {% endif %}
 {% endfor %}
 
