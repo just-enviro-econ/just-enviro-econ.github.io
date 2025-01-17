@@ -8,7 +8,12 @@ venue: 'The Journal of Economic Education'
 paperurl: 'https://doi.org/10.1080/00220485.2023.2242338'
 citation: 'Dissanayake, Sahan, and Jacobson, Sarah (2021). &quot;Money growing on trees: A classroom game about payments for ecosystem services and tropical deforestation &quot; <i>  The Journal of Economic Education </i>. 52(3).'
 category: 'games'
+topic: 'Natural Resources'
 type: 'pr'
+tags: 
+- PES
+- common resources
+- natural resources
 co-authors: 'Sahan T.M. Dissanayake and Sarah Jacobson'
 ---
 
