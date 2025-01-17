@@ -13,8 +13,13 @@ author_profile: true
 
 <br>
 
+<<<<<<< HEAD
 # __Natural Resources__
 
+=======
+# __Peer-Reviewed Journal Articles__
+Hola soy Fidel 
+>>>>>>> df4244362dd2739e5a77f51eb2c8db7f873950ba
 <details open>
 <summary>
 Natural Resources
