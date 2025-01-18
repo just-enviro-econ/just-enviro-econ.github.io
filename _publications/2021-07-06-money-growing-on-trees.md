@@ -17,6 +17,9 @@ co-authors: 'Sahan T.M. Dissanayake and Sarah Jacobson'
 ---
 
 
+**Co-Authors:** {{page.co-authors}}\\
+**Journal:** {{page.venue}}
+
 <details open>
 <summary>
 Abstract
