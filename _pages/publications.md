@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Publications"
+title: "Readings and Publications"
 permalink: /publications/
 author_profile: true
 ---
@@ -29,11 +29,11 @@ General
 
 <details open>
 <summary class="id1">
-Natural Resources
+Efficiency and/or Markets
 </summary>
 
 {% for post in site.publications reversed %}
-  {% if post.category == 'natural resources' %}
+  {% if post.category == 'efficiency' %}
     {% include archive-single-publications.html %}
   {% endif %}
 {% endfor %}
@@ -43,15 +43,28 @@ Natural Resources
 
 <details open>
 <summary class="id2">
-Environmental Justice 
+Natural Resources
 </summary>
 
 {% for post in site.publications reversed %}
   {% if post.type == 'pr' %}
-    {% if post.category == 'environmental justice' %}
+    {% if post.category == 'natural resources' %}
     {% include archive-single-publications.html %}
     {% endif %}
   {% endif %}
+{% endfor %}
+
+</details>
+
+<details open>
+<summary>
+Environmental Justice
+</summary>
+
+{% for post in site.publications reversed %}
+    {% if post.category == 'environmental justice' %}
+      {% include archive-single-publications.html %}
+    {% endif %}
 {% endfor %}
 
 </details>
