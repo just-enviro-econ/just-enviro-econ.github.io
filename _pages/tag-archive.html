@@ -1,12 +1,30 @@
 ---
 layout: archive
 permalink: /tags/
-title: "Posts by Tags"
+title: "Resources by Tags"
 author_profile: true
 ---
 
 {% include base_path %}
-{% include group-by-array collection=site.posts field="tags" %}
+{% include group-by-array collection=site.publications field="tags" %}
+
+<!-- Explanation:
+site.posts | map: 'tags' pulls the tags from site.posts.
+site.pages | map: 'tags' pulls the tags from site.pages.
+concat combines both arrays of tags into one.
+Then, you pass the combined array of tags into the group-by-array include, 
+just like you're doing with a single collection.
+-->
+
+<!-- This code is used to combine and display tags
+{% assign combined_posts = site.posts | concat: site.pages %}
+{% assign tag_groups = combined_posts | group_by: 'tags' %}
+-->
+
+<!--
+site.posts | concat: site.pages: This combines posts from both collections.
+group_by: 'tags': Groups the combined posts by their tags.
+-->
 
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
@@ -15,3 +33,6 @@ author_profile: true
     {% include archive-single.html %}
   {% endfor %}
 {% endfor %}
+
+
+
