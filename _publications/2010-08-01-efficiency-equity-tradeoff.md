@@ -3,7 +3,7 @@ title: "The Equity-Efficiency Trade-off in Environmental Policy: Evidence from S
 collection: publications
 permalink: /publication/equity-efficiency-tradeoff
 excerpt: ''
-date: 2022-08-01
+date: 2010-08-01
 venue: 'Land Economics'
 paperurl: 'https://doi.org/10.3368/le.86.3.423'
 citation: 'Dietz, S. & Atkinson, G. (2010). &quot;The Equity-Efficiency Trade-off in Environmental Policy: Evidence from Stated Preferences &quot; <i>  Land Economics </i>. 86(3): 423-443.'
