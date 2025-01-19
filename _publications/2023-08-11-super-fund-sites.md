@@ -12,7 +12,7 @@ type: 'pr'
 co-authors: 'Anna Klis'
 ---
 
-**Co-Authors:** {{page.co-authors}}\\
+**Author:** {{page.co-authors}}\\
 **Journal:** {{page.venue}}
 
 
