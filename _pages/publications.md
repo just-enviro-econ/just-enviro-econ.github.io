@@ -15,11 +15,11 @@ author_profile: true
 
 <details open>
 <summary>
-Natural Resources
+General
 </summary>
 
 {% for post in site.publications reversed %}
-    {% if post.category == 'natural resources' %}
+    {% if post.category == 'general' %}
       {% include archive-single-publications.html %}
     {% endif %}
 {% endfor %}
@@ -29,11 +29,11 @@ Natural Resources
 
 <details open>
 <summary class="id1">
-Climate Change
+Natural Resources
 </summary>
 
 {% for post in site.publications reversed %}
-  {% if post.category == 'climate change' %}
+  {% if post.category == 'natural resources' %}
     {% include archive-single-publications.html %}
   {% endif %}
 {% endfor %}
@@ -43,12 +43,12 @@ Climate Change
 
 <details open>
 <summary class="id2">
-Classroom Activities 
+Environmental Justice 
 </summary>
 
 {% for post in site.publications reversed %}
   {% if post.type == 'pr' %}
-    {% if post.category == 'pedagogy' %}
+    {% if post.category == 'environmental justice' %}
     {% include archive-single-publications.html %}
     {% endif %}
   {% endif %}
