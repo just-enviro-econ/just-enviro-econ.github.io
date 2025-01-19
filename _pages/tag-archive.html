@@ -8,6 +8,13 @@ author_profile: true
 {% include base_path %}
 {% include group-by-array collection=site.publications field="tags" %}
 
+<!--new Code
+{% assign combined_posts = site.publications | concat: site.activities %}
+{% assign combined_tags = combined_posts | map: 'tags' | flatten %}
+
+{% include group-by-array collection=combined_tags field="tags" %}
+-->
+
 <!-- Explanation:
 site.posts | map: 'tags' pulls the tags from site.posts.
 site.pages | map: 'tags' pulls the tags from site.pages.
