@@ -1,7 +1,7 @@
 ---
 title: "Money growing on trees: A classroom game about payments for ecosystem services and tropical deforestation"
-collection: publications
-permalink: /publication/money-growing-on-trees
+collection: activities
+permalink: /activities/money-growing-on-trees
 excerpt: ''
 date: 2021-07-06
 venue: 'The Journal of Economic Education'
