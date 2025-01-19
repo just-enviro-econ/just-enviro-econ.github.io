@@ -9,6 +9,9 @@ paperurl: 'https://doi.org/10.1080/00220485.2023.2242338'
 citation: 'Klis, Anna (2023). &quot;Inequality and Superfund sites: Using backward design, cooperative learning, and data integration in introductory environmental economics &quot; <i>  The Journal of Economic Education </i>. 54(4).'
 category: 'environmental justice'
 type: 'pr'
+tags:
+- environmental justice
+- cooperative learning
 co-authors: 'Anna Klis'
 ---
 
