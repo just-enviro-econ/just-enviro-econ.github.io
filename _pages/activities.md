@@ -20,7 +20,7 @@ Natural Resources
 
 {% for post in site.activities reversed %}
     {% if post.category == 'natural resources' %}
-      {% include archive-single-publications.html %}
+      {% include archive-single-activities.html %}
     {% endif %}
 {% endfor %}
 
