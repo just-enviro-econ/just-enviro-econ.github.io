@@ -27,7 +27,7 @@ co-authors: 'Juana Castro Santa'
   gtag('config', 'G-8CEVZ95BRH');
 </script>
 
-**Authors:** {{page.co-authors}}\\
+**Author:** {{page.co-authors}}\\
 **Journal:** {{page.venue}}
 
 <details open>
