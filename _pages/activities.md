@@ -59,7 +59,7 @@ Climate Change
 </summary>
 
 {% for post in site.activities reversed %}
-  {% if post.category == 'climate change  ' %}
+  {% if post.category == 'climate change' %}
     {% include archive-single-activities.html %}
   {% endif %}
 {% endfor %}
