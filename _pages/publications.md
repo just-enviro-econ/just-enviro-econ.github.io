@@ -37,8 +37,36 @@ General
 </details>
 
 
-<details open>
+<details close>
 <summary class="id1">
+Benefit/Cost Analysis
+</summary>
+
+{% for post in site.publications reversed %}
+  {% if post.category == 'benefit-cost' %}
+    {% include archive-single-publications.html %}
+  {% endif %}
+{% endfor %}
+
+</details>
+
+
+<details close>
+<summary class="id2">
+Climate Change
+</summary>
+
+{% for post in site.publications reversed %}
+  {% if post.category == 'climate change  ' %}
+    {% include archive-single-publications.html %}
+  {% endif %}
+{% endfor %}
+
+</details>
+
+
+<details close>
+<summary>
 Efficiency and/or Markets
 </summary>
 
@@ -50,8 +78,66 @@ Efficiency and/or Markets
 
 </details>
 
+<details close>
+<summary clas = "id1">
+Environmental Justice
+</summary>
 
-<details open>
+{% for post in site.publications reversed %}
+    {% if post.category == 'environmental justice' %}
+      {% include archive-single-publications.html %}
+    {% endif %}
+{% endfor %}
+
+</details>
+
+
+<details close>
+<summary class="id2">
+Growth and/or Development
+</summary>
+
+{% for post in site.publications reversed %}
+  {% if post.type == 'pr' %}
+    {% if post.category == 'growth and development' %}
+    {% include archive-single-publications.html %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+</details>
+
+<details close>
+<summary>
+Market Failure
+</summary>
+
+{% for post in site.publications reversed %}
+  {% if post.type == 'pr' %}
+    {% if post.category == 'market failure' %}
+    {% include archive-single-publications.html %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+</details>
+
+<details close>
+<summary class="id1">
+Market Solutions
+</summary>
+
+{% for post in site.publications reversed %}
+  {% if post.type == 'pr' %}
+    {% if post.category == 'market solutions' %}
+    {% include archive-single-publications.html %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+</details>
+
+<details close>
 <summary class="id2">
 Natural Resources
 </summary>
@@ -66,19 +152,36 @@ Natural Resources
 
 </details>
 
-<details open>
+
+<details close>
 <summary>
-Environmental Justice
+Non-market Solutions
 </summary>
 
 {% for post in site.publications reversed %}
-    {% if post.category == 'environmental justice' %}
-      {% include archive-single-publications.html %}
+  {% if post.type == 'pr' %}
+    {% if post.category == 'non-market solutions' %}
+    {% include archive-single-publications.html %}
     {% endif %}
+  {% endif %}
 {% endfor %}
 
 </details>
 
+<details close>
+<summary class="id2">
+Valuation
+</summary>
+
+{% for post in site.publications reversed %}
+  {% if post.type == 'pr' %}
+    {% if post.category == 'valuation' %}
+    {% include archive-single-publications.html %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+</details>
 
 
 
