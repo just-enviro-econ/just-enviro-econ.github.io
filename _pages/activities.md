@@ -23,6 +23,8 @@ author_profile: true
 
 <br>
 
+This site includes articles that describe classroom activities. 
+
 <details open>
 <summary>
 General
