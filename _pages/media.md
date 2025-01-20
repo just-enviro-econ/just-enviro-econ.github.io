@@ -33,7 +33,7 @@ General
 </details>
 
 
-<details close>
+<details open>
 <summary class="id1">
 Benefit/Cost Analysis
 </summary>
@@ -47,7 +47,7 @@ Benefit/Cost Analysis
 </details>
 
 
-<details close>
+<details open>
 <summary class="id2">
 Climate Change
 </summary>
@@ -61,7 +61,7 @@ Climate Change
 </details>
 
 
-<details close>
+<details open>
 <summary>
 Efficiency and/or Markets
 </summary>
@@ -74,7 +74,7 @@ Efficiency and/or Markets
 
 </details>
 
-<details close>
+<details open>
 <summary class = "id1">
 Environmental Justice
 </summary>
@@ -88,7 +88,7 @@ Environmental Justice
 </details>
 
 
-<details close>
+<details open>
 <summary class="id2">
 Growth and/or Development
 </summary>
@@ -103,7 +103,7 @@ Growth and/or Development
 
 </details>
 
-<details close>
+<details open>
 <summary>
 Market Failure
 </summary>
@@ -118,7 +118,7 @@ Market Failure
 
 </details>
 
-<details close>
+<details open>
 <summary class="id1">
 Market Solutions
 </summary>
@@ -133,7 +133,7 @@ Market Solutions
 
 </details>
 
-<details close>
+<details open>
 <summary class="id2">
 Natural Resources
 </summary>
@@ -149,7 +149,7 @@ Natural Resources
 </details>
 
 
-<details close>
+<details open>
 <summary>
 Non-market Solutions
 </summary>
@@ -164,7 +164,7 @@ Non-market Solutions
 
 </details>
 
-<details close>
+<details open>
 <summary class="id1">
 Valuation
 </summary>
