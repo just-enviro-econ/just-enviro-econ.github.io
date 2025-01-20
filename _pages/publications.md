@@ -79,7 +79,7 @@ Efficiency and/or Markets
 </details>
 
 <details close>
-<summary clas = "id1">
+<summary class = "id1">
 Environmental Justice
 </summary>
 
@@ -169,7 +169,7 @@ Non-market Solutions
 </details>
 
 <details close>
-<summary class="id2">
+<summary class="id1">
 Valuation
 </summary>
 
