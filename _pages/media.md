@@ -162,7 +162,7 @@ Valuation
 {% for post in site.media reversed %}
   {% if post.category == 'valuation' %}
     {% include archive-single-podcasts.html %}
-  {% endif %}
+  {% endif %} 
 {% endfor %}
 
 </details>
