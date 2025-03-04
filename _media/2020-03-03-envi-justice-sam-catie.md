@@ -14,6 +14,16 @@ paperurl: 'https://www.resources.org/resources-radio/economics-environmental-jus
 duration: "31:29"
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8CEVZ95BRH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8CEVZ95BRH');
+</script>
+
 **<span class="bold-podcast">Publisher: </span>&nbsp;<span class="text-podcast"> {{ page.publisher }}</span>**
 
 **<span class="bold-podcast">Duration: </span>&nbsp;<span class="text-podcast"> {{ page.duration }}</span>**
