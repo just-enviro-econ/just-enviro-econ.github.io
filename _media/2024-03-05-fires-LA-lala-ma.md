@@ -6,7 +6,7 @@ tags:
   - climate change
   - fires
   - hedonic pricing model
-  -valuation
+  - valuation
 category: "valuation"
 type: "podcast"
 publisher: "Resource Radio"
