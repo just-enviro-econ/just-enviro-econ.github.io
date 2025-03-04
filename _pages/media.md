@@ -94,10 +94,8 @@ Growth and/or Development
 </summary>
 
 {% for post in site.media reversed %}
-  {% if post.type == 'pr' %}
-    {% if post.category == 'growth and development' %}
+  {% if post.category == 'growth and development' %}
     {% include archive-single-podcasts.html %}
-    {% endif %}
   {% endif %}
 {% endfor %}
 
@@ -109,10 +107,8 @@ Market Failure
 </summary>
 
 {% for post in site.media reversed %}
-  {% if post.type == 'pr' %}
-    {% if post.category == 'market failure' %}
+  {% if post.category == 'market failure' %}
     {% include archive-single-podcasts.html %}
-    {% endif %}
   {% endif %}
 {% endfor %}
 
@@ -124,10 +120,8 @@ Market Solutions
 </summary>
 
 {% for post in site.media reversed %}
-  {% if post.type == 'pr' %}
-    {% if post.category == 'market solutions' %}
+  {% if post.category == 'market solutions' %}
     {% include archive-single-podcasts.html %}
-    {% endif %}
   {% endif %}
 {% endfor %}
 
@@ -139,10 +133,8 @@ Natural Resources
 </summary>
 
 {% for post in site.media reversed %}
-  {% if post.type == 'pr' %}
-    {% if post.category == 'natural resources' %}
+  {% if post.category == 'natural resources' %}
     {% include archive-single-podcasts.html %}
-    {% endif %}
   {% endif %}
 {% endfor %}
 
@@ -155,10 +147,8 @@ Non-market Solutions
 </summary>
 
 {% for post in site.media reversed %}
-  {% if post.type == 'pr' %}
-    {% if post.category == 'non-market solutions' %}
+  {% if post.category == 'non-market solutions' %}
     {% include archive-single-podcasts.html %}
-    {% endif %}
   {% endif %}
 {% endfor %}
 
@@ -170,10 +160,8 @@ Valuation
 </summary>
 
 {% for post in site.media reversed %}
-  {% if post.type == 'pr' %}
-    {% if post.category == 'valuation' %}
+  {% if post.category == 'valuation' %}
     {% include archive-single-podcasts.html %}
-    {% endif %}
   {% endif %}
 {% endfor %}
 
