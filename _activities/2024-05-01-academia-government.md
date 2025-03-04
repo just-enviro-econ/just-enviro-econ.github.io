@@ -28,3 +28,13 @@ co-authors: 'Noelwah Netusil and Marie Walkiewicz'
 **Journal:** {{page.venue}}
 
 
+<details open>
+<summary>
+Excerpt
+</summary>
+
+<p>
+Collaboration between academics and government agencies – in the form of faculty research projects, class projects, student research projects, and coalitions – is pivotal for advancing our understanding of public policy issues. However, numerous barriers can hinder these efforts and limit their effectiveness. Drawing from our experience spanning over twenty years – as an environmental economist and city planner – we have encountered and overcome many of these challenges. In this article, we present a structured approach to navigating collaborations, and we share some of the insights we've gained through our journey.
+</p>
+
+</details>
