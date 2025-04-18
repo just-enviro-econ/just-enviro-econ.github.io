@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+This page lists all the resources by topic. 
+
 <details open>
   <summary> General </summary>
   <div class="content">
