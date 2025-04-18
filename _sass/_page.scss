@@ -476,7 +476,7 @@ summary {
 }
 
 summary.id1 {
-  background: hwb(253 53% 5%);
+  background: rgb(1, 239, 247);
   color:white;
   padding: 5px;
   font-size: larger;
@@ -488,7 +488,7 @@ summary.id1 {
 }
 
 summary.id2 {
-  background: rgb(25, 159, 163);
+  background: rgb(28, 181, 92);;
   color:white;
   padding: 5px;
   font-size: larger;
@@ -500,7 +500,7 @@ summary.id2 {
 }
 
 summary.id3 {
-  background: rgb(28, 181, 92);
+  background: rgb(25, 159, 163);
   color:white;
   padding: 5px;
   font-size: larger;
@@ -512,7 +512,7 @@ summary.id3 {
 }
 
 summary.id4 {
-  background: rgb(1, 239, 247);
+  background: hwb(253 53% 5%);
   color:white;
   padding: 5px;
   font-size: larger;
@@ -551,8 +551,8 @@ p {
 }
 
 .sub_detail > summary {
-  font-size: medium;
-  background-color: #1e90ff;
+  font-size: larger;
+  background-color: #2592ff;
   color: white;
 }
 
