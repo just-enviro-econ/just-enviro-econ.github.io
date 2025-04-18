@@ -313,3 +313,14 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+
+/* Added by Jimena on 4/18/205 to add bluesky buttom */
+
+.btn--bluesky {
+  background: #0085ff;
+  color: #fff;
+}
+.btn--bluesky:hover {
+  background: #005fa3;
+}
