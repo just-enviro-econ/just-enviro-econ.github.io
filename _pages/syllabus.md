@@ -27,7 +27,7 @@ This page lists all the resources by topic.
     </details>
 
     <details class="sub_detail" open>
-      <summary class="id3"> Activities </summary>
+      <summary> Activities </summary>
       <div class="content">
           {% for post in site.activities reversed %}
               {% if post.category == 'general' %}
