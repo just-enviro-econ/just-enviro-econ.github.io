@@ -158,3 +158,114 @@ This page lists all the resources by topic.
 
   </div>
 </details>
+
+<details open>
+  <summary class = "id2"> Environmental Justice </summary>
+  <div class="content">
+    <details class="sub_detail" close>
+      <summary> Readings </summary>
+      <div class="content">
+          {% for post in site.publications reversed %}
+              {% if post.category == 'environmental justice' %}
+                {% include archive-single-publications.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Activities </summary>
+      <div class="content">
+          {% for post in site.activities reversed %}
+              {% if post.category == 'environmental justice' %}
+                {% include archive-single-activities.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Media </summary>
+      <div class="content">
+        {% for post in site.media reversed %}
+          {% if post.category == 'environmental justice' %}
+            {% include archive-single-podcasts.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </details>
+
+  </div>
+</details>
+
+<details open>
+  <summary> Growth and/or Development </summary>
+  <div class="content">
+    <details class="sub_detail" close>
+      <summary> Readings </summary>
+      <div class="content">
+          {% for post in site.publications reversed %}
+              {% if post.category == 'growth and development' %}
+                {% include archive-single-publications.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Activities </summary>
+      <div class="content">
+          {% for post in site.activities reversed %}
+              {% if post.category == 'growth and development' %}
+                {% include archive-single-activities.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Media </summary>
+      <div class="content">
+        {% for post in site.media reversed %}
+          {% if post.category == 'growth and development' %}
+            {% include archive-single-podcasts.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </details>
+
+  </div>
+</details>
+
+<details open>
+  <summary class = "id2"> Market Failure </summary>
+  <div class="content">
+    <details class="sub_detail" close>
+      <summary> Readings </summary>
+      <div class="content">
+          {% for post in site.publications reversed %}
+              {% if post.category == 'market failure' %}
+                {% include archive-single-publications.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Activities </summary>
+      <div class="content">
+          {% for post in site.activities reversed %}
+              {% if post.category == 'market failure' %}
+                {% include archive-single-activities.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Media </summary>
+      <div class="content">
+        {% for post in site.media reversed %}
+          {% if post.category == 'market failure' %}
+            {% include archive-single-podcasts.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </details>
+
+  </div>
+</details>
