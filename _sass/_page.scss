@@ -609,3 +609,13 @@ p {
     text-decoration: underline;  /* Underline  link on hover */
     color: #0c47a1;  /* Change color on hover */
   }
+
+  /* Added by Jimena on 4/18/205 to add bluesky buttom */
+
+.btn--bluesky {
+  background: #0085ff;
+  color: #fff;
+}
+.btn--bluesky:hover {
+  background: #005fa3;
+}

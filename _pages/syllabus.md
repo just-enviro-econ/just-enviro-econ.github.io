@@ -10,13 +10,33 @@ redirect_from:
 {% include base_path %}
 
 <details open>
-  <summary> Test General </summary>
+  <summary> General </summary>
   <div class="content">
 
-    <p>This is some content for the main section.</p>
+    <details class="sub_detail">
+      <summary class="id2"> Readings </summary>
+      <div class="content">
+          {% for post in site.publications reversed %}
+              {% if post.category == 'general' %}
+                {% include archive-single-publications.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
 
     <details class="sub_detail">
-      <summary class="id2">Media</summary>
+      <summary class="id2"> Activities </summary>
+      <div class="content">
+          {% for post in site.activities reversed %}
+              {% if post.category == 'general' %}
+                {% include archive-single-activities.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+
+    <details class="sub_detail">
+      <summary class="id2"> Media </summary>
       <div class="content">
         {% for post in site.media reversed %}
           {% if post.category == 'general' %}
@@ -26,12 +46,8 @@ redirect_from:
       </div>
     </details>
 
-    <details class="sub_detail">
-      <summary class="id2">Subsection 2</summary>
-      <div class="content">
-        <p>This is content inside Subsection 2.</p>
-      </div>
-    </details>
+
+
 
   </div>
 </details>
