@@ -499,6 +499,31 @@ summary.id2 {
   }
 }
 
+summary.id3 {
+  background: rgb(28, 181, 92);
+  color:white;
+  padding: 5px;
+  font-size: larger;
+  border: 2px solid transparent;
+  outline: none;
+  &:focus {
+    border-color: black;
+  }
+}
+
+summary.id4 {
+  background: rgb(1, 239, 247);
+  color:white;
+  padding: 5px;
+  font-size: larger;
+  border: 2px solid transparent;
+  outline: none;
+  &:focus {
+    border-color: black;
+  }
+}
+
+
 details {
   max-width: 100%;
   box-sizing: border-box;
