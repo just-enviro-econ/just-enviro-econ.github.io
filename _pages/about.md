@@ -20,6 +20,7 @@ redirect_from:
 
 Welcome! This website accompanies our paper titled: **From Efficiency to Inclusion: The Present and Future of Undergraduate Teaching in Environmental and Natural Resource Economics** [Insert Link]
 
+
 The goal of the website is to offer resources to instructors who want to incorporate equity and justice into environmental and natural resource economics undergraduate courses. 
  
 Our team includes:
