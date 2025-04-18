@@ -1,7 +1,7 @@
 ---
 title: "The Use of Distributional Weights in Benefit–Cost Analysis: Insights from Welfare Economics"
 collection: publications
-permalink: /publication/test2
+permalink: /publication/distributional-weights
 excerpt: ''
 date: 2016-09-16
 venue: 'Review of Environmnental Economics and Policy'
