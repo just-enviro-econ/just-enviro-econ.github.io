@@ -14,9 +14,8 @@ This page lists all the resources by topic.
 <details open>
   <summary> General </summary>
   <div class="content">
-
-    <details class="sub_detail">
-      <summary class="id3"> Readings </summary>
+    <details class="sub_detail" open>
+      <summary> Readings </summary>
       <div class="content">
           {% for post in site.publications reversed %}
               {% if post.category == 'general' %}
@@ -25,7 +24,6 @@ This page lists all the resources by topic.
           {% endfor %}
       </div>
     </details>
-
     <details class="sub_detail" open>
       <summary> Activities </summary>
       <div class="content">
@@ -36,9 +34,8 @@ This page lists all the resources by topic.
           {% endfor %}
       </div>
     </details>
-
-    <details class="sub_detail">
-      <summary class="id3"> Media </summary>
+    <details class="sub_detail" open>
+      <summary> Media </summary>
       <div class="content">
         {% for post in site.media reversed %}
           {% if post.category == 'general' %}
