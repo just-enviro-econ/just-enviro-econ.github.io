@@ -269,3 +269,151 @@ This page lists all the resources by topic.
 
   </div>
 </details>
+
+<details open>
+  <summary> Market Solutions </summary>
+  <div class="content">
+    <details class="sub_detail" close>
+      <summary> Readings </summary>
+      <div class="content">
+          {% for post in site.publications reversed %}
+              {% if post.category == 'market solutions' %}
+                {% include archive-single-publications.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Activities </summary>
+      <div class="content">
+          {% for post in site.activities reversed %}
+              {% if post.category == 'market solutions' %}
+                {% include archive-single-activities.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Media </summary>
+      <div class="content">
+        {% for post in site.media reversed %}
+          {% if post.category == 'market solutions' %}
+            {% include archive-single-podcasts.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </details>
+
+  </div>
+</details>
+
+<details open>
+  <summary class = "id2"> Natural Resources </summary>
+  <div class="content">
+    <details class="sub_detail" close>
+      <summary> Readings </summary>
+      <div class="content">
+          {% for post in site.publications reversed %}
+              {% if post.category == 'natural resources' %}
+                {% include archive-single-publications.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Activities </summary>
+      <div class="content">
+          {% for post in site.activities reversed %}
+              {% if post.category == 'natural resources' %}
+                {% include archive-single-activities.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Media </summary>
+      <div class="content">
+        {% for post in site.media reversed %}
+          {% if post.category == 'natural resources' %}
+            {% include archive-single-podcasts.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </details>
+
+  </div>
+</details>
+
+<details open>
+  <summary> Non-market Solutions </summary>
+  <div class="content">
+    <details class="sub_detail" close>
+      <summary> Readings </summary>
+      <div class="content">
+          {% for post in site.publications reversed %}
+              {% if post.category == 'non-market solutions' %}
+                {% include archive-single-publications.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Activities </summary>
+      <div class="content">
+          {% for post in site.activities reversed %}
+              {% if post.category == 'non-market solutions' %}
+                {% include archive-single-activities.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Media </summary>
+      <div class="content">
+        {% for post in site.media reversed %}
+          {% if post.category == 'non-market solutions' %}
+            {% include archive-single-podcasts.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </details>
+
+  </div>
+</details>
+
+<details open>
+  <summary class = "id2"> Valuation </summary>
+  <div class="content">
+    <details class="sub_detail" close>
+      <summary> Readings </summary>
+      <div class="content">
+          {% for post in site.publications reversed %}
+              {% if post.category == 'valuation' %}
+                {% include archive-single-publications.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Activities </summary>
+      <div class="content">
+          {% for post in site.activities reversed %}
+              {% if post.category == 'valuation' %}
+                {% include archive-single-activities.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Media </summary>
+      <div class="content">
+        {% for post in site.media reversed %}
+          {% if post.category == 'valuation' %}
+            {% include archive-single-podcasts.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </details>
+
+  </div>
+</details>
