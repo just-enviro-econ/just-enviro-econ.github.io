@@ -12,7 +12,7 @@ redirect_from:
 This page lists all the resources by topic. 
 
 <details open>
-  <summary> General </summary>
+  <summary class= "id2" > General </summary>
   <div class="content">
     <details class="sub_detail" open>
       <summary> Readings </summary>
@@ -49,7 +49,7 @@ This page lists all the resources by topic.
 </details>
 
 <details open>
-  <summary class = "id2"> Benefit/Cost Analysis </summary>
+  <summary> Benefit/Cost Analysis </summary>
   <div class="content">
     <details class="sub_detail" close>
       <summary> Readings </summary>
@@ -86,7 +86,7 @@ This page lists all the resources by topic.
 </details>
 
 <details open>
-  <summary> Climate Change </summary>
+  <summary class = "id2"> Climate Change </summary>
   <div class="content">
     <details class="sub_detail" close>
       <summary> Readings </summary>
@@ -113,6 +113,43 @@ This page lists all the resources by topic.
       <div class="content">
         {% for post in site.media reversed %}
           {% if post.category == 'climate change' %}
+            {% include archive-single-podcasts.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </details>
+
+  </div>
+</details>
+
+<details open>
+  <summary> Efficiency and/or Markets </summary>
+  <div class="content">
+    <details class="sub_detail" close>
+      <summary> Readings </summary>
+      <div class="content">
+          {% for post in site.publications reversed %}
+              {% if post.category == 'efficiency' %}
+                {% include archive-single-publications.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Activities </summary>
+      <div class="content">
+          {% for post in site.activities reversed %}
+              {% if post.category == 'efficiency' %}
+                {% include archive-single-activities.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Media </summary>
+      <div class="content">
+        {% for post in site.media reversed %}
+          {% if post.category == 'efficiency' %}
             {% include archive-single-podcasts.html %}
           {% endif %}
         {% endfor %}
