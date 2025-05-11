@@ -7,11 +7,13 @@ date: 2021-06-15
 venue: 'Nature'
 paperurl: 'https://doi.org/10.1038/d41586-021-01586-8'
 citation: 'Lewis, E. Y. and Sadler, R. (2021). &quot;Community–academic partnerships helped Flint through its water crisis &quot; <i>  Nature  </i>. 594: 326-329 .'
-category: 'environmental justice'
+category: 'non-market solutions'
 tags: 
 - 'water'
 - 'drinking water'
 - 'environmental justice'
+- 'community-engaged research'
+- 'non-market solutions'
 type: 'pr'
 co-authors: 'E. Yvonne Lewis and Richard Sadler'
 ---
