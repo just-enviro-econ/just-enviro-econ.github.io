@@ -1,19 +1,18 @@
 ---
-title: "Environmental justice beyond race: Skin tone and exposure to air pollution"
+title: "Retrospectives: Tragedy of the Commons after 50 Years"
 collection: publications
-permalink: /publication/EJ-beyond-race
+permalink: /publication/tragey-of-the-commons-50-years-later
 excerpt: ''
-date: 2025-03-04
-venue: 'Proceedings of the National Academy of Sciences'
-paperurl: 'https://doi.org/10.1073/pnas.2407064122'
-citation: 'Aguilar-Gomez, Sandra, Cardenas, Juan Camilo, and Salas Diaz, Ricardo (2025). &quot;Environmental justice beyond race: Skin tone and exposure to air pollution &quot; <i>  Proceedings of the National Academy of Sciences  </i>. 122 (10) .'
-category: 'environmental justice'
+date: 2019-08-01
+venue: 'Journal of Economic Perspectives'
+paperurl: '10.1257/jep.33.4.211'
+citation: 'Frischmann, Brett, Marciano, Alain, and Battista Ramello, Giovanni (2021). &quot;Retrospectives: Tragedy of the Commons after 50 Years &quot; <i>  Journal of Economic Perspectives  </i>. 33 (4): 211-228 .'
+category: 'natural resources'
 tags: 
-- 'pollution'
-- 'air pollution'
-- 'environmental justice'
+- 'tragedy of the commons'
+- 'natural resources'
 type: 'pr'
-co-authors: 'Sandra Aguilar-Gomez, Juan Camilo Cardenas, and Ricardo Salas Diaz'
+co-authors: 'Brett M. Frischmann, Alain Marciano, and Giovanni Battista Ramello'
 ---
 
 <!-- Google tag (gtag.js) -->
@@ -36,7 +35,7 @@ Abstract
 </summary>
 
 <p>
-Recent research, focused mostly on the United States and Western Europe, shows that marginalized communities often face greater environmental degradation. However, the ethnoracial categories used in these studies may not fully capture environmental inequality in the Global South. Moving beyond conventional ethnoracial variables, this study presents findings exploring the link between skin tone and fine particulate matter (PM2.5) exposure in Colombia. By matching household geolocations from a large-scale longitudinal survey with satellite-based PM2.5 estimates, we find that skin tone predicts both initial pollution exposure levels and their changes over time. Although average exposure levels remained stable during our study period, the environmental justice (EJ) landscape in Colombia contemporaneously underwent a complete transformation. In 2010, lighter-skinned individuals faced higher PM2.5 exposure, but darker-skinned individuals experienced steeper increases in the following years. By 2016, the EJ gap had reversed, with people with the darkest skin tones exposed to PM2.5 levels nearly one SD higher than those faced by people with the lightest skin tones. These patterns remain robust when controlling for a comprehensive set of theoretically relevant covariates, including ethnoracial self-identification and income. Disproportionate exposure to pollution from fires partially explains the observed disparities. Decomposition analysis shows that this variable, local collective action, and economic marginalization account for a sizeable share of the EJ gap. However, one-third of the gap remains unexplained by observable characteristics. With climate change intensifying fire incidence, the disproportionate disease burdens that vulnerable groups face might deepen unless policy measures are taken to reverse this trend.
+Garrett Hardin's "The Tragedy of the Commons" (1968) has been incredibly influential generally and within economics, and it remains important despite some historical and conceptual flaws. Hardin focused on the stress population growth inevitably placed on environmental resources. Unconstrained consumption of a shared resource—a pasture, a highway, a server—by individuals acting in rational pursuit of their self-interest can lead to congestion and, worse, rapid depreciation, depletion, and even destruction of the resources. Our societies face similar problems, with respect to not only environmental resources but also infrastructures, knowledge, and many other shared resources. In this article, we examine how the tragedy of the commons has fared within the economics literature and its relevance for economic and public policies today. We revisit the original piece to explain Hardin's purpose and conceptual approach. We expose two conceptual mistakes he made: conflating resource with governance and conflating open access with commons. This critical discussion leads us to the work of Elinor Ostrom, the recent Nobel Prize in Economics laureate, who spent her life working on commons. Finally, we discuss a few modern examples of commons governance of shared resources.
 </p>
 
 </details>
