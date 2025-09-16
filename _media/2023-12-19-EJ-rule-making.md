@@ -9,7 +9,7 @@ category: "environmental justice"
 type: "podcast"
 publisher: "Resource Radio"
 paperurl: 'https://www.resources.org/resources-radio/bringing-environmental-justice-into-government-rulemaking-with-ann-wolverton/'
-duration: "35:15"
+duration: "32:39"
 ---
 
 <!-- Google tag (gtag.js) -->
