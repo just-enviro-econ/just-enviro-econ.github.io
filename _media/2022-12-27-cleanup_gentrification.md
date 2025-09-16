@@ -10,7 +10,7 @@ tags:
 category: "environmental justice"
 type: "podcast"
 publisher: "Resource Radio"
-paperurl: 'https://www.resources.org/resources-radio/sensing-air-pollution-exposure-in-new-york-city-schools'
+paperurl: 'https://www.resources.org/resources-radio/does-environmental-cleanup-lead-to-environmental-gentrification-with-elaine-hill/'
 duration: "31:37"
 ---
 
