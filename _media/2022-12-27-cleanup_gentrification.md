@@ -7,7 +7,7 @@ tags:
   - gentrification
   - environmental policy
   - environmental justice win
-category: "environmental justice"
+category: "benefit-cost"
 type: "podcast"
 publisher: "Resource Radio"
 paperurl: 'https://www.resources.org/resources-radio/does-environmental-cleanup-lead-to-environmental-gentrification-with-elaine-hill/'
