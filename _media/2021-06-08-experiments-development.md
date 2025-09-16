@@ -5,7 +5,7 @@ permalink: /media/experiments-in-sustainable-development
 tags:
   - valuation
   - ecosystem services
-  - electrification
+  - electricity
   - grid connections
   - forests
 category: "market solutions"
