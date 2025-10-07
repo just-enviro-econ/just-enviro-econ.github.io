@@ -12,10 +12,6 @@ author_profile: true
   style="width:100%; padding:10px; font-size:1.1em; margin-bottom:20px;"
 >
 
-<!-- Old code
-{% include base_path %}
-{% include group-by-array collection=site.media field="tags" %}
--->
 
 {% include base_path %}
 
@@ -44,9 +40,8 @@ document.addEventListener("DOMContentLoaded", function() {
 
     tagSections.forEach(section => {
       const tag = section.textContent.toLowerCase();
-      const posts = section.nextElementSibling
-        ? section.nextElementSibling.querySelectorAll(".archive__item") || []
-        : [];
+      const posts = section.parentElement.querySelectorAll(`#${section.id} ~ .tag-section .archive__item`);
+
 
       // Check if tag or any post matches
       let tagHasMatch = tag.includes(query);
@@ -59,50 +54,20 @@ document.addEventListener("DOMContentLoaded", function() {
       });
 
       // Show/hide section based on matches
+      const tagSection = section.parentElement.querySelector(`#${section.id} ~ .tag-section`);
+
       if (tagHasMatch || postHasMatch) {
         section.style.display = "";
-        if (section.nextElementSibling) section.nextElementSibling.style.display = "";
+        if (tagSection) tagSection.style.display = "";
       } else {
         section.style.display = "none";
-        if (section.nextElementSibling) section.nextElementSibling.style.display = "none";
+        if (tagSection) tagSection.style.display = "none";
       }
     });
   });
 });
 </script>
 
-<!--new Code
-{% assign combined_posts = site.publications | concat: site.activities %}
-{% assign combined_tags = combined_posts | map: 'tags' | flatten %}
 
-{% include group-by-array collection=combined_tags field="tags" %}
--->
-
-<!-- Explanation:
-site.posts | map: 'tags' pulls the tags from site.posts.
-site.pages | map: 'tags' pulls the tags from site.pages.
-concat combines both arrays of tags into one.
-Then, you pass the combined array of tags into the group-by-array include, 
-just like you're doing with a single collection.
--->
-
-<!-- This code is used to combine and display tags
-{% assign combined_posts = site.posts | concat: site.pages %}
-{% assign tag_groups = combined_posts | group_by: 'tags' %}
--->
-
-<!--
-site.posts | concat: site.pages: This combines posts from both collections.
-group_by: 'tags': Groups the combined posts by their tags.
-
-
-{% for tag in group_names %}
-  {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
-  {% for post in posts %}
-    {% include archive-single-podcasts.html %}
-  {% endfor %}
-{% endfor %}
--->
 
 
