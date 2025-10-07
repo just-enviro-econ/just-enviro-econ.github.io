@@ -5,8 +5,33 @@ title: "Resources by Tags"
 author_profile: true
 ---
 
+<!-- Old code
 {% include base_path %}
 {% include group-by-array collection=site.media field="tags" %}
+-->
+
+---
+layout: archive
+permalink: /tags/
+title: "Resources by Tags"
+author_profile: true
+---
+
+{% include base_path %}
+
+{% assign media_posts = site.media %}
+{% assign all_tags = media_posts | map: "tags" | join: "," | split: "," | uniq | sort %}
+
+{% for tag in all_tags %}
+  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
+  {% for post in media_posts %}
+    {% if post.tags contains tag %}
+      {% include archive-single-podcasts.html %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
+
+
 
 <!--new Code
 {% assign combined_posts = site.publications | concat: site.activities %}
@@ -31,7 +56,7 @@ just like you're doing with a single collection.
 <!--
 site.posts | concat: site.pages: This combines posts from both collections.
 group_by: 'tags': Groups the combined posts by their tags.
--->
+
 
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
@@ -40,6 +65,6 @@ group_by: 'tags': Groups the combined posts by their tags.
     {% include archive-single-podcasts.html %}
   {% endfor %}
 {% endfor %}
-
+-->
 
 
