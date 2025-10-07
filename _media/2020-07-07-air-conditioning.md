@@ -5,6 +5,8 @@ permalink: /media/unequal-access-air-conditioning
 tags:
   - climate adaptation
   - electricity
+  - energy
+  - heat
 category: "environmental justice"
 type: "podcast"
 publisher: "Resource Radio"
