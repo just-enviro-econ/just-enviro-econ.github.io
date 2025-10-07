@@ -2,6 +2,7 @@
 title: "Systemic Racism in Environmental Economics, with Jimena Gonzalez Ramirez and Sarah Jacobson"
 date: 2023-11-03
 permalink: /media/systemic-racism-in-environmental-economics
+tags:
   - environmental justice
   - valuation
   - efficiency
