@@ -42,8 +42,6 @@ document.addEventListener("DOMContentLoaded", function() {
       const tag = section.textContent.toLowerCase();
       const posts = section.parentElement.querySelectorAll(`#${section.id} ~ .tag-section .archive__item`);
 
-
-      // Check if tag or any post matches
       let tagHasMatch = tag.includes(query);
       let postHasMatch = false;
 
@@ -53,9 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
         post.style.display = title.includes(query) ? "" : "none";
       });
 
-      // Show/hide section based on matches
       const tagSection = section.parentElement.querySelector(`#${section.id} ~ .tag-section`);
-
       if (tagHasMatch || postHasMatch) {
         section.style.display = "";
         if (tagSection) tagSection.style.display = "";
