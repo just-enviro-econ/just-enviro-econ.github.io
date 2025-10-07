@@ -5,6 +5,13 @@ title: "Resources by Tags"
 author_profile: true
 ---
 
+<input
+  type="text"
+  id="search-bar"
+  placeholder="Search tags or posts..."
+  style="width:100%; padding:10px; font-size:1.1em; margin-bottom:20px;"
+>
+
 <!-- Old code
 {% include base_path %}
 {% include group-by-array collection=site.media field="tags" %}
@@ -15,16 +22,54 @@ author_profile: true
 {% assign media_posts = site.media %}
 {% assign all_tags = media_posts | map: "tags" | join: "," | split: "," | uniq | sort %}
 
+
 {% for tag in all_tags %}
   <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
-  {% for post in media_posts %}
-    {% if post.tags contains tag %}
-      {% include archive-single-podcasts.html %}
-    {% endif %}
-  {% endfor %}
+  <div class="tag-section">
+    {% for post in media_posts %}
+      {% if post.tags contains tag %}
+        {% include archive-single-podcasts.html %}
+      {% endif %}
+    {% endfor %}
+  </div>
 {% endfor %}
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const searchInput = document.getElementById("search-bar");
+  const tagSections = document.querySelectorAll("h2.archive__subtitle");
 
+  searchInput.addEventListener("keyup", function() {
+    const query = this.value.toLowerCase();
+
+    tagSections.forEach(section => {
+      const tag = section.textContent.toLowerCase();
+      const posts = section.nextElementSibling
+        ? section.nextElementSibling.querySelectorAll(".archive__item") || []
+        : [];
+
+      // Check if tag or any post matches
+      let tagHasMatch = tag.includes(query);
+      let postHasMatch = false;
+
+      posts.forEach(post => {
+        const title = post.textContent.toLowerCase();
+        if (title.includes(query)) postHasMatch = true;
+        post.style.display = title.includes(query) ? "" : "none";
+      });
+
+      // Show/hide section based on matches
+      if (tagHasMatch || postHasMatch) {
+        section.style.display = "";
+        if (section.nextElementSibling) section.nextElementSibling.style.display = "";
+      } else {
+        section.style.display = "none";
+        if (section.nextElementSibling) section.nextElementSibling.style.display = "none";
+      }
+    });
+  });
+});
+</script>
 
 <!--new Code
 {% assign combined_posts = site.publications | concat: site.activities %}
