@@ -6,7 +6,7 @@ author_profile: true
 ---
 
 {% include base_path %}
-{% include group-by-array collection=site.publications field="tags" %}
+{% include group-by-array collection=site.media field="tags" %}
 
 <!--new Code
 {% assign combined_posts = site.publications | concat: site.activities %}
@@ -37,7 +37,7 @@ group_by: 'tags': Groups the combined posts by their tags.
   {% assign posts = group_items[forloop.index0] %}
   <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
   {% for post in posts %}
-    {% include archive-single.html %}
+    {% include archive-single-podcasts.html %}
   {% endfor %}
 {% endfor %}
 
