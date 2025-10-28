@@ -15,6 +15,13 @@ author_profile: true
   gtag('config', 'G-8CEVZ95BRH');
 </script>
 
+<input
+  type="text"
+  id="search-bar"
+  placeholder="Search"
+  style="width:100%; padding:10px; font-size:1.1em; margin-bottom:20px;"
+>
+
 {% include base_path %}
 
 This page includes a list of media, either podcasts or videos, categorized by topic. 
