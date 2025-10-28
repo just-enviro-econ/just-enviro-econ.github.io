@@ -37,7 +37,7 @@ General
 </details>
 
 
-<details open>
+<details close>
 <summary class="id1">
 Benefit/Cost Analysis
 </summary>
@@ -51,7 +51,7 @@ Benefit/Cost Analysis
 </details>
 
 
-<details open>
+<details close>
 <summary class="id2">
 Climate Change
 </summary>
@@ -65,7 +65,7 @@ Climate Change
 </details>
 
 
-<details open>
+<details close>
 <summary>
 Efficiency and/or Markets
 </summary>
@@ -78,7 +78,7 @@ Efficiency and/or Markets
 
 </details>
 
-<details open>
+<details close>
 <summary class = "id1">
 Energy
 </summary>
@@ -105,7 +105,7 @@ Environmental Justice
 </details>
 
 
-<details open>
+<details close>
 <summary>
 Growth and/or Development
 </summary>
