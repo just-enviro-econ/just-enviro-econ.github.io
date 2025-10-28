@@ -15,12 +15,24 @@ author_profile: true
   gtag('config', 'G-8CEVZ95BRH');
 </script>
 
+Type a keyword to search through the podcasts:
+
 <input
   type="text"
   id="search-bar"
   placeholder="Search"
   style="width:100%; padding:10px; font-size:1.1em; margin-bottom:20px;"
 >
+
+<script>
+  // Simple search filter
+  document.getElementById("search-bar").addEventListener("input", function() {
+    const query = this.value.toLowerCase();
+    document.querySelectorAll("#podcast-list li").forEach(item => {
+      item.style.display = item.textContent.toLowerCase().includes(query) ? "" : "none";
+    });
+  });
+</script>
 
 {% include base_path %}
 
