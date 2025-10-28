@@ -17,15 +17,8 @@ author_profile: true
 
 {% include base_path %}
 
-<h2>Search Media</h2>
-<input
-  type="text"
-  id="search-bar"
-  placeholder="Search podcasts or videos"
-  style="width:100%; padding:10px; font-size:1.1em; margin-bottom:20px;"
->
 
-<p>This page includes a list of media, either podcasts or videos, categorized by topic.</p>
+This page includes a list of media, either podcasts or videos, categorized by topic.
 
 
 <details open>
@@ -177,25 +170,3 @@ Valuation
 </details>
   
 
-<!-- ========================= -->
-<!-- Simple search script -->
-<!-- ========================= -->
-<script>
-document.getElementById("search-bar").addEventListener("input", function() {
-  const query = this.value.toLowerCase();
-
-  // Select all podcast containers; adjust selector if needed
-  const posts = document.querySelectorAll("details .archive__item");
-
-  posts.forEach(post => {
-    const text = post.textContent.toLowerCase();
-    post.style.display = text.includes(query) ? "" : "none";
-  });
-
-  // Optional: hide <details> if all children are hidden
-  document.querySelectorAll("details").forEach(detail => {
-    const visiblePosts = detail.querySelectorAll(".archive__item:not([style*='display: none'])");
-    detail.style.display = visiblePosts.length ? "" : "none";
-  });
-});
-</script>
