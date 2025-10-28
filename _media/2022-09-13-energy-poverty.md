@@ -9,7 +9,7 @@ tags:
   - environmental justice
   - climate change
   - heat
-category: "environmental justice"
+category: "energy"
 type: "podcast"
 publisher: "Resource Radio"
 paperurl: 'https://www.resources.org/resources-radio/unveiling-hidden-energy-poverty-with-destenie-nock/'

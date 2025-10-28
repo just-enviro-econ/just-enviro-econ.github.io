@@ -6,7 +6,7 @@ tags:
   - energy
   - energy extraction
   - community impacts
-category: "natural resources"
+category: "energy"
 type: "podcast"
 publisher: "Resource Radio"
 paperurl: 'https://www.resources.org/resources-radio/oil-development-in-native-america-with-angela-parker/'
