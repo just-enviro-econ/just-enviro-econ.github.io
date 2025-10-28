@@ -169,8 +169,46 @@ This page lists all the resources by topic.
   </div>
 </details>
 
+
 <details open>
-  <summary class = "id2"> Environmental Justice </summary>
+  <summary class = "id2"> Energy </summary>
+  <div class="content">
+    <details class="sub_detail" close>
+      <summary> Readings </summary>
+      <div class="content">
+          {% for post in site.publications reversed %}
+              {% if post.category == 'energy' %}
+                {% include archive-single-publications.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Activities </summary>
+      <div class="content">
+          {% for post in site.activities reversed %}
+              {% if post.category == 'energy' %}
+                {% include archive-single-activities.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Media </summary>
+      <div class="content">
+        {% for post in site.media reversed %}
+          {% if post.category == 'energy' %}
+            {% include archive-single-podcasts.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </details>
+
+  </div>
+</details>
+
+<details open>
+  <summary> Environmental Justice </summary>
   <div class="content">
     <details class="sub_detail" close>
       <summary> Readings </summary>
@@ -207,7 +245,7 @@ This page lists all the resources by topic.
 </details>
 
 <details open>
-  <summary> Growth and/or Development </summary>
+  <summary class = "id2"> Growth and/or Development </summary>
   <div class="content">
     <details class="sub_detail" close>
       <summary> Readings </summary>
@@ -244,7 +282,7 @@ This page lists all the resources by topic.
 </details>
 
 <details open>
-  <summary class = "id2"> Market Failure </summary>
+  <summary> Market Failure </summary>
   <div class="content">
     <details class="sub_detail" close>
       <summary> Readings </summary>
@@ -281,7 +319,7 @@ This page lists all the resources by topic.
 </details>
 
 <details open>
-  <summary> Market Solutions </summary>
+  <summary class = "id2"> Market Solutions </summary>
   <div class="content">
     <details class="sub_detail" close>
       <summary> Readings </summary>
@@ -318,7 +356,7 @@ This page lists all the resources by topic.
 </details>
 
 <details open>
-  <summary class = "id2"> Natural Resources </summary>
+  <summary> Natural Resources </summary>
   <div class="content">
     <details class="sub_detail" close>
       <summary> Readings </summary>
@@ -355,7 +393,7 @@ This page lists all the resources by topic.
 </details>
 
 <details open>
-  <summary> Non-market Solutions </summary>
+  <summary class = "id2"> Non-market Solutions </summary>
   <div class="content">
     <details class="sub_detail" close>
       <summary> Readings </summary>
@@ -392,7 +430,7 @@ This page lists all the resources by topic.
 </details>
 
 <details open>
-  <summary class = "id2"> Valuation </summary>
+  <summary> Valuation </summary>
   <div class="content">
     <details class="sub_detail" close>
       <summary> Readings </summary>
