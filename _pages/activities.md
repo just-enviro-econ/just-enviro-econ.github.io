@@ -82,6 +82,19 @@ Efficiency and/or Markets
 
 <details open>
 <summary class = "id1">
+Energy
+</summary>
+
+{% for post in site.activities reversed %}
+  {% if post.category == 'energy' %}
+    {% include archive-single-activities.html %}
+  {% endif %}
+{% endfor %}
+
+</details>
+
+<details open>
+<summary class = "id2">
 Environmental Justice
 </summary>
 
@@ -95,7 +108,7 @@ Environmental Justice
 
 
 <details open>
-<summary class="id2">
+<summary>
 Growth and/or Development
 </summary>
 
@@ -110,7 +123,7 @@ Growth and/or Development
 </details>
 
 <details open>
-<summary>
+<summary class = "id1">
 Market Failure
 </summary>
 
@@ -125,7 +138,7 @@ Market Failure
 </details>
 
 <details open>
-<summary class="id1">
+<summary class="id2">
 Market Solutions
 </summary>
 
@@ -140,7 +153,7 @@ Market Solutions
 </details>
 
 <details open>
-<summary class="id2">
+<summary>
 Natural Resources
 </summary>
 
@@ -156,7 +169,7 @@ Natural Resources
 
 
 <details open>
-<summary>
+<summary class = "id1">
 Non-market Solutions
 </summary>
 
@@ -172,7 +185,7 @@ Non-market Solutions
 </details>
 
 <details open>
-<summary class="id1">
+<summary class="id2">
 Valuation
 </summary>
 
