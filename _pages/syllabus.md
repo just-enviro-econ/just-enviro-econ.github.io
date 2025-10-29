@@ -465,3 +465,40 @@ This page lists all the resources by topic.
 
   </div>
 </details>
+
+<details open>
+  <summary class = "id2"> Water </summary>
+  <div class="content">
+    <details class="sub_detail" close>
+      <summary> Readings </summary>
+      <div class="content">
+          {% for post in site.publications reversed %}
+              {% if post.category == 'water' %}
+                {% include archive-single-publications.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Activities </summary>
+      <div class="content">
+          {% for post in site.activities reversed %}
+              {% if post.category == 'water' %}
+                {% include archive-single-activities.html %}
+              {% endif %}
+          {% endfor %}
+      </div>
+    </details>
+    <details class="sub_detail" close>
+      <summary> Media </summary>
+      <div class="content">
+        {% for post in site.media reversed %}
+          {% if post.category == 'water' %}
+            {% include archive-single-podcasts.html %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </details>
+
+  </div>
+</details>
