@@ -196,5 +196,20 @@ Valuation
 
 </details>
 
+<details open>
+<summary>
+Water
+</summary>
+
+{% for post in site.publications reversed %}
+  {% if post.type == 'pr' %}
+    {% if post.category == 'water' %}
+    {% include archive-single-publications.html %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+</details>
+
 
 

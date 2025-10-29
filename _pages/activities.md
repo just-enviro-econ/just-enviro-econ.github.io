@@ -198,3 +198,18 @@ Valuation
 {% endfor %}
 
 </details>
+
+<details open>
+<summary>
+Water
+</summary>
+
+{% for post in site.activities reversed %}
+  {% if post.type == 'pr' %}
+    {% if post.category == 'water' %}
+    {% include archive-single-activities.html %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+</details>

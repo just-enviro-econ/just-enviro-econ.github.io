@@ -76,8 +76,21 @@ Efficiency and/or Markets
 
 </details>
 
-<details open>
+<details close>
 <summary class = "id1">
+Energy
+</summary>
+
+{% for post in site.media reversed %}
+  {% if post.category == 'energy' %}
+    {% include archive-single-podcasts.html %}
+  {% endif %}
+{% endfor %}
+
+</details>
+
+<details close>
+<summary class = "id2">
 Environmental Justice
 </summary>
 
@@ -91,7 +104,7 @@ Environmental Justice
 
 
 <details open>
-<summary class="id2">
+<summary>
 Growth and/or Development
 </summary>
 
@@ -104,7 +117,7 @@ Growth and/or Development
 </details>
 
 <details open>
-<summary>
+<summary class = "id1">
 Market Failure
 </summary>
 
@@ -117,7 +130,7 @@ Market Failure
 </details>
 
 <details open>
-<summary class="id1">
+<summary class="id2">
 Market Solutions
 </summary>
 
@@ -130,7 +143,7 @@ Market Solutions
 </details>
 
 <details open>
-<summary class="id2">
+<summary>
 Natural Resources
 </summary>
 
@@ -144,7 +157,7 @@ Natural Resources
 
 
 <details open>
-<summary>
+<summary class = "id1">
 Non-market Solutions
 </summary>
 
@@ -157,7 +170,7 @@ Non-market Solutions
 </details>
 
 <details open>
-<summary class="id1">
+<summary class="id2">
 Valuation
 </summary>
 
@@ -170,3 +183,15 @@ Valuation
 </details>
   
 
+<details open>
+<summary>
+Water
+</summary>
+
+{% for post in site.media reversed %}
+  {% if post.category == 'water' %}
+    {% include archive-single-podcasts.html %}
+  {% endif %} 
+{% endfor %}
+
+</details>
