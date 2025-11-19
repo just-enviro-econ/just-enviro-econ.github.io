@@ -57,7 +57,7 @@ Climate Change
 </summary>
 
 {% for post in site.publications reversed %}
-  {% if post.category == 'climate change  ' %}
+  {% if post.category == 'climate change' %}
     {% include archive-single-publications.html %}
   {% endif %}
 {% endfor %}
