@@ -7,7 +7,8 @@ tags:
   - wastewater
   - incorporations
   - sewers
-category: "environmental justice"
+  - water
+category: "water"
 type: "podcast"
 publisher: "Resource Radio"
 paperurl: 'https://www.resources.org/resources-radio/understanding-inequities-in-access-to-wastewater-systems-with-maura-allaire/'
