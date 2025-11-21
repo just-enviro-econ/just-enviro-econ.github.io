@@ -7,7 +7,7 @@ date: 2023-08-04
 venue: 'Applied Economics Teaching Resources'
 paperurl: 'https://doi.org/10.22004/ag.econ.338388'
 citation: 'Rahmana et al. (2023). &quot;Water and Economics: Why We Need and Ought to Teach Water Economics in the Modern Economics Curriculum &quot; <i>  Applied Economics Teaching Resources </i>. 5(3): 1-24'
-category: 'natural resources'
+category: 'water'
 type: 'pr'
 tags: 
 - water
