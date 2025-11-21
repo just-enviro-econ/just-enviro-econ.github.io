@@ -11,7 +11,7 @@ tags:
   - growth
   - colonialism
 category: 
- - natural resources
+ - water
  - energy
 type: "podcast"
 publisher: "Resource Radio"
