@@ -291,7 +291,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _syllabus
+  # _all
   - scope:
       path: ""
       type: publications
