@@ -19,7 +19,10 @@ redirect_from:
 
 {% include base_path %}
 
-This page lists all the resources by topic. 
+This page includes a sample syllabus and lists all the resources by topic. 
+
+<embed src="{{ site.baseurl }}/files\Sample Course Outline_SEA.pdf" type="application/pdf" width="100%" height="800px" />
+
 
 <details open>
   <summary class= "id2" > General </summary>
