@@ -11,13 +11,11 @@ category: 'benefit-cost'
 tags: 
 - 'benefit-cost'
 - 'market failure'
-- 'valuation'
+- 'equity'
 - 'lorenz curve'
 type: 'pr'
 co-authors: 'Sarah Stafford'
 ---
-
-Sarah L. Stafford (2021), "Emphasizing Distributional Impacts in Teaching Solutions to Market Failures", International Review of Environmental and Resource Economics: Vol. 15: No. 3, pp 175-202. http://dx.doi.org/10.1561/101.00000141
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-8CEVZ95BRH"></script>
@@ -49,12 +47,13 @@ This paper argues for incorporating distributional impacts into research and cla
 Keywords
 </summary>
 <br> 
-Climate change <br> 
-Economic education <br>
-Climate economics <br> 
-Environmental economics <br> 
-Learning goals
+Equity <br> 
+Benefit-cost analysis <br>
+Kaldor-Hicks Tableau <br> 
+Lorenz Curve <br> 
+Intergenerational analysis
 
 <br>
 
 </details>
+Equity, benefit-cost analysis, Kaldor-Hicks Tableau, Lorenz Curve, intergenerational analysis
