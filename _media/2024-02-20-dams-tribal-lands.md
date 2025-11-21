@@ -8,7 +8,7 @@ tags:
   - water
   - land use
   - environmental justice
-category: "environmental justice"
+category: "water"
 type: "podcast"
 publisher: "Resource Radio"
 paperurl: 'https://www.resources.org/resources-radio/the-effects-of-dams-on-tribal-lands-with-heather-randell/'
