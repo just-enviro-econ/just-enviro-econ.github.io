@@ -9,8 +9,8 @@ paperurl: 'https://doi.org/10.3368/le.86.3.423'
 citation: 'Dietz, S. & Atkinson, G. (2010). &quot;The Equity-Efficiency Trade-off in Environmental Policy: Evidence from Stated Preferences &quot; <i>  Land Economics </i>. 86(3): 423-443.'
 category: 'efficiency'
 tags: 
-- 'equity'
-- 'efficiency'
+- equity
+- efficiency
 - stated preferences
 - valuation
 - benefits
