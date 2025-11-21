@@ -7,7 +7,7 @@ tags:
   - electricity
   - energy
   - heat
-category: "environmental justice"
+category: "climate change"
 type: "podcast"
 publisher: "Resource Radio"
 paperurl: 'https://www.resources.org/resources-radio/acdc-unequal-access-air-conditioning-kelly-t-sanders/'
