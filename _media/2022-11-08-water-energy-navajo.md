@@ -10,7 +10,9 @@ tags:
   - development
   - growth
   - colonialism
-category: "natural resources"
+category: 
+ - natural resources
+ - energy
 type: "podcast"
 publisher: "Resource Radio"
 paperurl: 'https://www.resources.org/resources-radio/understanding-water-and-energy-in-the-navajo-nation-with-andrew-curley/'
