@@ -23,6 +23,12 @@ This page includes a sample syllabus and lists all the resources by topic.
 
 <embed src="{{ site.baseurl }}/files\Sample Course Outline_SEA.pdf#pagemode=none" type="application/pdf" width="100%" height="900px" />
 
+<iframe 
+  src="https://docs.google.com/gview?embedded=true&url=https://just-enviro-econ.github.io/files/Sample Course Outline_SEA.pdf"
+  style="width:100%; height:900px;" 
+  frameborder="0">
+</iframe>
+
 
 <details open>
   <summary class= "id2" > General </summary>
