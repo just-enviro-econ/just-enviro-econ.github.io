@@ -16,9 +16,13 @@ main:
    
   - title: "Media"
     url: /media/
+
+  - title: "All"
+    url: /all/
   
   - title: "Team"
     url: /team/ 
+
         
     
 

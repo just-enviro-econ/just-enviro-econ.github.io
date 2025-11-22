@@ -300,6 +300,15 @@ defaults:
       author_profile: true
       share: true
       comments: true
+  # _all
+  - scope:
+      path: ""
+      type: all
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
   # _portfolio
   - scope:
       path: ""

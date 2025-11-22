@@ -1,5 +1,5 @@
 ---
-title: "A History of America’s Public Lands, with John D. Leshy
+title: "A History of America’s Public Lands, with John D. Leshy"
 date: 2023-01-17
 permalink: /media/history-of-american's-public-lands
 tags:
