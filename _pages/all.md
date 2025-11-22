@@ -508,7 +508,7 @@ This page lists all the resources by topic.
   </div>
 </details>
 
-* For readings and publications, please go to [Readings](/readings/)
+* For readings and publications, please go to [Readings](/publications/)
 * For papers with pedagogy activities, please to go [Activities](/activities/)
 * For podcasts and videos, please go to [Media](/media/)
 * For a sample syllabus, please go to [Syllabus](/syllabus/)

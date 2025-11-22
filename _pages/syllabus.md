@@ -27,7 +27,7 @@ This page includes a sample syllabus with selected materials.
   frameborder="0">
 </iframe>
 
-* For readings and publications, please go to [Readings](/readings/)
+* For readings and publications, please go to [Readings](/publications/)
 * For papers with pedagogy activities, please to go [Activities](/activities/)
 * For podcasts and videos, please go to [Media](/media/)
 * For all of the resources, please go to [All](/all/)

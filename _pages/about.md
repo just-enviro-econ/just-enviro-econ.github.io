@@ -24,7 +24,7 @@ Welcome! This website accompanies our paper titled: **From Efficiency to Inclusi
 The goal of the website is to offer resources to instructors who want to incorporate equity and justice into environmental and natural resource economics undergraduate courses. 
 
 * For a sample syllabus, please go to [Syllabus](/syllabus/)
-* For readings and publications, please go to [Readings](/readings/)
+* For readings and publications, please go to [Readings](/publications/)
 * For papers with pedagogy activities, please to go [Activities](/activities/)
 * For podcasts and videos, please go to [Media](/media/)
 * For all materials, please go to [All](/all/)
