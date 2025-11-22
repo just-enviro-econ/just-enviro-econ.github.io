@@ -21,13 +21,9 @@ redirect_from:
 
 {% include base_path %}
 
-This page includes a sample syllabus and lists all the resources by topic. 
+This page lists all the resources by topic. 
 
-<iframe 
-  src="https://docs.google.com/gview?embedded=true&url=https://just-enviro-econ.github.io/files/Sample Course Outline_SEA.pdf"
-  style="width:100%; height:900px;" 
-  frameborder="0">
-</iframe>
+
 
 
 <details open>
@@ -511,3 +507,8 @@ This page includes a sample syllabus and lists all the resources by topic.
 
   </div>
 </details>
+
+* For readings and publications, please go to [Readings](/readings/)
+* For papers with pedagogy activities, please to go [Activities](/activities/)
+* For podcasts and videos, please go to [Media](/media/)
+* For a sample syllabus, please go to [Syllabus](/syllabus/)
