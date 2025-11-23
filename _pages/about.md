@@ -30,23 +30,16 @@ The goal of the website is to offer resources to instructors who want to incorpo
 * For all materials, please go to [All](/all/)
  
 # Contribute Resources
-
 We welcome submissions that support instructors who want to incorporate equity and justice into environmental and natural resource economics courses. If you know of materials that would strengthen this collection, please share them using the forms below.
 
 ## Submit a Reading/Publication or Pedagogy Paper
-
 Have a reading, article, report, or pedagogy-focused paper that would be valuable for teaching equity and justice in ENRE courses?
-
 [Submit it Here](https://forms.gle/cGMYWj4LrjzwSqLT6)
 
 ## Submit Media (Podcast or Video)
-
 Know of a podcast episode, video, or other media that could help instructors introduce equity and justice topics?
-
 [Submit it Here](https://forms.gle/eYvAtrYVuvJALBRaA)
 
 ## Provide Feedback on the Website
-
 Your feedback helps improve this resource hub for instructors.
-
 [Share your suggestions here](https://forms.gle/8C8QV5mnuWYX3oFq5)
