@@ -9,7 +9,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "Just Enviro Econ - About"
+title                    : "Just Enviro Econ"
 title_separator          : "-"
 name                     : &name "Equity and Environmental Justice Resources for Environmental and Natural Resource Economics Courses"
 description              : &description "personal description"
