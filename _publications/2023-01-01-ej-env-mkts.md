@@ -3,10 +3,10 @@ title: "Do environmental markets cause environmental injustice? Evidence from Ca
 collection: publications
 permalink: /publication/ej-environmental-markets-california
 excerpt: ''
-date: 2022-11-28
+date: 2023-01-01
 venue: 'Journal of Public Economics'
 paperurl: 'https://doi.org/10.1016/j.jpubeco.2022.104786'
-citation: 'Hernandez-Cortes, D. and Meng, K. (2022). &quot;Do environmental markets cause environmental injustice? Evidence from California’s carbon market &quot; <i>  Journal of Public Economics </i>. 217 (Jan 2023).'
+citation: 'Hernandez-Cortes, D. and Meng, K. (2023). &quot;Do environmental markets cause environmental injustice? Evidence from California’s carbon market &quot; <i>  Journal of Public Economics </i>. 217.'
 category: 'market solutions'
 tags: 
 - 'environmental justice'
