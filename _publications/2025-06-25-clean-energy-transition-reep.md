@@ -7,7 +7,7 @@ date: 2025-06-25
 venue: 'Review of Environmental Economics and Policy'
 paperurl: 'https://doi.org/10.1086/735542'
 citation: 'Spiller, E. Hernandez-Cortes, D. Khanna, N. and Mohebbi, M. (2025). &quot;Community-Engaged Economics Research for the Clean Energy Transition &quot; <i>  Review of Environmental Economics and Policy  </i>. 122 (10) .'
-category: 'energy'
+category: 'non-market solutions'
 tags: 
 - 'energy'
 - 'non-market solutions'
