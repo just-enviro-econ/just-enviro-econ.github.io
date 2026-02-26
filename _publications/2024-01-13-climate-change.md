@@ -5,8 +5,8 @@ permalink: /publication/economists-and-the-climate
 excerpt: ''
 date: 2024-01-13
 venue: 'Journal of Behavioral and Experimental Economics'
-paperurl: 'https://doi.org/10.1086/728371'
-citation: 'Sterner, T., Ewald, J. and Sterner, E. (2024). &quot;Inequality Aversion for Climate Policy &quot; <i>  Journal of Behavioral and Experimental Economics </i>. 109(1).'
+paperurl: 'https://doi.org/10.1016/j.socec.2023.102158'
+citation: 'Sterner, T., Ewald, J. and Sterner, E. (2024). &quot;Economists and the climate &quot; <i>  Journal of Behavioral and Experimental Economics </i>. 109(1).'
 category: 'climate change'
 tags: 
 - 'climate change'
