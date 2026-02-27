@@ -5,7 +5,7 @@ permalink: /publication/who-will-pay-for-legacy-utility-costs
 excerpt: ''
 date: 2022-08-26
 venue: 'Journal of the Association of Environmental and Resource Economists'
-paperurl: 'https://doi.org/10.1080/00220485.2022.2111387'
+paperurl: 'https://doi.org/10.1086/719793'
 citation: 'Davis, L. and Hausman, C. (2022). &quot;Who Will Pay for Legacy Utility Costs? &quot; <i>  Journal of the Association of Environmental and Resource Economists </i>. 9(6).'
 category: 'energy'
 tags: 
