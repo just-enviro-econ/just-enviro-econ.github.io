@@ -23,7 +23,7 @@ author_profile: true
 
 <br>
 
-This site includes articles that describe classroom activities. 
+This site includes articles that describe classroom activities or teaching advice. 
 
 <details open>
 <summary>
