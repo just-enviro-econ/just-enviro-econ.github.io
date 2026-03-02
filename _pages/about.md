@@ -25,7 +25,7 @@ The goal of the website is to offer resources to instructors who want to incorpo
 
 * For a sample syllabus, please go to [Syllabus](/syllabus/)
 * For readings and publications, please go to [Readings](/publications/)
-* For papers with pedagogy activities, please to go [Activities](/activities/)
+* For papers with pedagogy activities and teaching advice, please to go [Activities and Teaching Advice](/activities/)
 * For podcasts and videos, please go to [Media](/media/)
 * For all materials, please go to [All](/all/)
  

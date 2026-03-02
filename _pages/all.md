@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "All: Readings, Activities, and Media"
+title: "All: Readings, Activities and Teaching Advice, and Media"
 permalink: /all/
 author_profile: true
 redirect_from:
@@ -40,7 +40,7 @@ This page lists all the resources by topic.
       </div>
     </details>
     <details class="sub_detail" close>
-      <summary> Activities </summary>
+      <summary> Activities and Teaching Advice </summary>
       <div class="content">
           {% for post in site.activities reversed %}
               {% if post.category == 'general' %}
@@ -77,7 +77,7 @@ This page lists all the resources by topic.
       </div>
     </details>
     <details class="sub_detail" close>
-      <summary> Activities </summary>
+      <summary> Activities and Teaching Advice</summary>
       <div class="content">
           {% for post in site.activities reversed %}
               {% if post.category == 'benefit-cost' %}
@@ -114,7 +114,7 @@ This page lists all the resources by topic.
       </div>
     </details>
     <details class="sub_detail" close>
-      <summary> Activities </summary>
+      <summary> Activities and Teaching Advice </summary>
       <div class="content">
           {% for post in site.activities reversed %}
               {% if post.category == 'climate change' %}
@@ -151,7 +151,7 @@ This page lists all the resources by topic.
       </div>
     </details>
     <details class="sub_detail" close>
-      <summary> Activities </summary>
+      <summary> Activities and Teaching Advice</summary>
       <div class="content">
           {% for post in site.activities reversed %}
               {% if post.category == 'efficiency' %}
@@ -189,7 +189,7 @@ This page lists all the resources by topic.
       </div>
     </details>
     <details class="sub_detail" close>
-      <summary> Activities </summary>
+      <summary> Activities and Teaching Advice</summary>
       <div class="content">
           {% for post in site.activities reversed %}
               {% if post.category == 'energy' %}
@@ -226,7 +226,7 @@ This page lists all the resources by topic.
       </div>
     </details>
     <details class="sub_detail" close>
-      <summary> Activities </summary>
+      <summary> Activities and Teaching Advice</summary>
       <div class="content">
           {% for post in site.activities reversed %}
               {% if post.category == 'environmental justice' %}
@@ -263,7 +263,7 @@ This page lists all the resources by topic.
       </div>
     </details>
     <details class="sub_detail" close>
-      <summary> Activities </summary>
+      <summary> Activities and Teaching Advice</summary>
       <div class="content">
           {% for post in site.activities reversed %}
               {% if post.category == 'growth and development' %}
@@ -300,7 +300,7 @@ This page lists all the resources by topic.
       </div>
     </details>
     <details class="sub_detail" close>
-      <summary> Activities </summary>
+      <summary> Activities and Teaching Advice</summary>
       <div class="content">
           {% for post in site.activities reversed %}
               {% if post.category == 'market failure' %}
@@ -337,7 +337,7 @@ This page lists all the resources by topic.
       </div>
     </details>
     <details class="sub_detail" close>
-      <summary> Activities </summary>
+      <summary> Activities and Teaching Advice</summary>
       <div class="content">
           {% for post in site.activities reversed %}
               {% if post.category == 'market solutions' %}
@@ -374,7 +374,7 @@ This page lists all the resources by topic.
       </div>
     </details>
     <details class="sub_detail" close>
-      <summary> Activities </summary>
+      <summary> Activities and Teaching Advice</summary>
       <div class="content">
           {% for post in site.activities reversed %}
               {% if post.category == 'natural resources' %}
@@ -411,7 +411,7 @@ This page lists all the resources by topic.
       </div>
     </details>
     <details class="sub_detail" close>
-      <summary> Activities </summary>
+      <summary> Activities and Teaching Advice</summary>
       <div class="content">
           {% for post in site.activities reversed %}
               {% if post.category == 'non-market solutions' %}
@@ -448,7 +448,7 @@ This page lists all the resources by topic.
       </div>
     </details>
     <details class="sub_detail" close>
-      <summary> Activities </summary>
+      <summary> Activities and Teaching Advice</summary>
       <div class="content">
           {% for post in site.activities reversed %}
               {% if post.category == 'valuation' %}
@@ -485,7 +485,7 @@ This page lists all the resources by topic.
       </div>
     </details>
     <details class="sub_detail" close>
-      <summary> Activities </summary>
+      <summary> Activities and Teaching Advice</summary>
       <div class="content">
           {% for post in site.activities reversed %}
               {% if post.category == 'water' %}
@@ -509,6 +509,6 @@ This page lists all the resources by topic.
 </details>
 
 * For readings and publications, please go to [Readings](/publications/)
-* For papers with pedagogy activities, please to go [Activities](/activities/)
+* For papers with pedagogy activities and teaching advice, please to go [Activities and Teaching Advice](/activities/)
 * For podcasts and videos, please go to [Media](/media/)
 * For a sample syllabus, please go to [Syllabus](/syllabus/)
