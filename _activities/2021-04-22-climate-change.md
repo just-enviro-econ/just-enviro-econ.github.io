@@ -7,7 +7,7 @@ date: 2021-04-22
 venue: 'Applied Economics Teaching Resources'
 paperurl: 'https://www.aetrjournal.org/volumes/volume-3-2021/volume-3-issue-3-september-2021/themed-section---innovations-in-teaching-environmental-and-resource-economics/making-learning-about-climate-change-fun-and-interactive'
 citation: 'Sharp, M. and Thompson, J. (2020). &quot;Making Learning about Climate Change Fun and Interactive &quot; <i>  Applied Economics Teaching Resources </i>. 3(3).'
-category: 'general'
+category: 'climate change'
 type: 'pr'
 tags: 
 - climate change
