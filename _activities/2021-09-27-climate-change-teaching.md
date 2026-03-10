@@ -1,7 +1,7 @@
 ---
 title: "What Should We Be Teaching Students about the Economics of Climate Change: Is There a Consensus?"
-collection: publications
-permalink: /publication/climate-change-econ-course
+collection: activities
+permalink: /activities/climate-change-econ-course
 excerpt: ''
 date: 2021-09-27
 venue: 'International Review of Environmental and Resource Economics'
@@ -41,17 +41,3 @@ Research on the economics of climate change has advanced drastically in the last
 
 </details>
 
-<details open>
-<summary>
-Keywords
-</summary>
-<br> 
-Climate change <br> 
-Economic education <br>
-Climate economics <br> 
-Environmental economics <br> 
-Learning goals
-
-<br>
-
-</details>
