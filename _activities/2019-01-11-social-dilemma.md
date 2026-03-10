@@ -42,20 +42,4 @@ The authors present a semester-long game to teach the role of economics in natur
 
 </details>
 
-<details open>
-<summary>
-Keywords
-</summary>
-<br> 
-Classroom games <br>
-Community resource management <br>
-Common pool resources <br>
-Economic education <br>
-Fisheries <br>
-Interdisciplinary <br> 
-Environmental policy <br>
-Renewable resource management <br>
 
-<br>
-
-</details>
