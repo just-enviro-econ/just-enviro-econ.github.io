@@ -5,7 +5,7 @@ permalink: /activities/teaching-about-diversity-and-racism-in-food-systems
 excerpt: ''
 date: 2020-12-30
 venue: 'Applied Economics Teaching Resources'
-paperurl: 'https://doi.org/10.1080/00220485.2018.1551097'
+paperurl: 'https://www.aetrjournal.org/volumes/volume-2-2020/volume-2-issue-6-december-2020/teaching-and-educational-methods/teaching-about-diversity-and-racism-in-food-systems-an-example-for-agricultural-economics-and-related-departments'
 citation: 'Kolodinsky, Jane and Tobin, Daniel (2020). &quot;Teaching about Diversity and Racism in Food Systems: An Example for Agricultural Economics and Related Departments &quot; <i>  Applied Economics Teaching Resources </i>. 2(6).'
 category: 'general'
 type: 'pr'
