@@ -38,19 +38,4 @@ Abstract
 Payments for ecosystem services (PES) programs use an incentive-based approach to pursue environmental goals. While they are common policy tools, key concepts determining their efficacy are nuanced and hard to grasp. This article presents a new interactive game that explores the functioning and implications of PES programs. Participants play the role of rural households in a developing country, deciding individually or as groups whether to enter into contracts to refrain from reducing local forests in exchange for payment from a forest-based PES initiative. The game explores topics that include PES programs, climate change, tropical deforestation, cost-effectiveness, additionality, illegal harvest and enforcement, and community resource management. Customizable materials, a detailed reading list, and discussion prompts are provided.
 </p>
 
-</details>
 
-<details open>
-<summary>
-Keywords
-</summary>
-<br> 
-Classroom games <br>
-Community resource management <br>
-Incentive-based regulation <br>
-Payments for ecosystem services <br>
-Tropical deforestation <br>
-
-<br>
-
-</details>

@@ -40,17 +40,3 @@ Payments for ecosystem services (PES) programs use an incentive-based approach t
 
 </details>
 
-<details open>
-<summary>
-Keywords
-</summary>
-<br> 
-Classroom games <br>
-Community resource management <br>
-Incentive-based regulation <br>
-Payments for ecosystem services <br>
-Tropical deforestation <br>
-
-<br>
-
-</details>
