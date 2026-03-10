@@ -39,17 +39,4 @@ Environmental justice is an important topic that can be better understood by usi
 
 </details>
 
-<details open>
-<summary>
-Keywords
-</summary>
- <br> 
-Backward design <br>
-Classroom data integration <br>
-GDP per capita <br>
-Superfund <br>
-Team-Based Learning <br>
 
-<br>
-
-</details>
