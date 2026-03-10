@@ -40,16 +40,4 @@ Abstract: Establishing appropriate environmental and trade policies is an import
 
 </details>
 
-<details open>
-<summary>
-Keywords
-</summary>
-<br> 
-Current water economics courses <br> 
-Teaching strategies <br> 
-Water economics teaching <br> 
-Water topics <br>
 
-<br>
-
-</details>

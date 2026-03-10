@@ -41,16 +41,4 @@ A novel game that captures the central dimensions of climate change mitigation a
 
 </details>
 
-<details open>
-<summary>
-Keywords
-</summary>
-<br> 
-Classroom experiments <br>
-Climate change <br>
-Mitigation <br>
-Resource dilemma
 
-<br>
-
-</details>

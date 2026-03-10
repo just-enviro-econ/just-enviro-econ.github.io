@@ -39,17 +39,4 @@ Dominion of the scarcity principle as the basis for economic analysis is virtual
 
 </details>
 
-<details open>
-<summary>
-Keywords
-</summary>
-<br> 
-Inequality <br>
-Scarcity <br>
-Stratification economics <br>
-Uncertainty <br>
-Unlimited wants <br>
 
-<br>
-
-</details>

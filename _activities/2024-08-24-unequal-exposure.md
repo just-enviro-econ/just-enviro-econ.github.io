@@ -38,15 +38,4 @@ Environmental justice issues have been absent or downplayed in most environmenta
 
 </details>
 
-<details open>
-<summary>
-Keywords
-</summary>
- <br> 
-Environmental Economics <br>
-Environmental Justice<br>
-Pedagogy <br>
 
-<br>
-
-</details>

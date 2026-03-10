@@ -46,17 +46,3 @@ courses due to their value for students’ personal and professional development
 
 </details>
 
-<details open>
-<summary>
-Keywords
-</summary>
-<br> 
-Conversations <br> 
-Diversity <br> 
-Empathy <br> 
-Engagement <br> 
-Social justice
-
-<br>
-
-</details>

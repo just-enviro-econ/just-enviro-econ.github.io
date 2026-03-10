@@ -41,16 +41,4 @@ Instructors have used real-world problems in introductory economics classrooms f
 
 </details>
 
-<details open>
-<summary>
-Keywords
-</summary>
-<br> 
-Environmental economics <br>
-Negative externalities <br>
-Inequality <br>
-Undergraduate economics <br>
 
-<br>
-
-</details>

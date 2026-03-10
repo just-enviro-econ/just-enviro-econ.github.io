@@ -40,16 +40,4 @@ Water scarcity and the availability of good quality water are major challenges f
 
 </details>
 
-<details open>
-<summary>
-Keywords
-</summary>
-<br> 
-Current water economics courses <br> 
-Teaching strategies <br> 
-Water economics teaching <br> 
-Water topics <br>
 
-<br>
-
-</details>
