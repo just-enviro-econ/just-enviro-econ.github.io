@@ -1,18 +1,18 @@
 ---
-title: "Red / Black Card Classroom Game to Show Free Rider Problem and Cooperation"
+title: "Pollution Control Policy Game"
 collection: activities
-permalink: /activities/card-game-free-rider-problem-and-cooperation
+permalink: /activities/pollution-control-policy-game
 excerpt: ''
 date: 2026-01-04
 venue: 
-paperurl: 'https://docs.google.com/document/d/1XKqt5T3odRkbqo9YvalUDW-bD0Znoa5KL-Fd_W8pOVE/edit?usp=sharing'
-citation: ' &quot;Red / Black Card Classroom Game to Show Free Rider Problem and Cooperation &quot; <i>  </i>.'
-category: 'market failure'
+paperurl: 'https://docs.google.com/document/d/1YnpCjviB_rXJSZLlYzl9LlbRDJ71LV2Rux-JXMNpXPY/edit?tab=t.0'
+citation: ' &quot;Red / Pollution Control Policy Game &quot; <i>  </i>.'
+category: 'market solutions'
 type: 'other'
 tags: 
-- externality
 - pollution
-- cooperation
+- market solutions
+- distributional impacts
 co-authors: Unknown
 ---
 
@@ -33,7 +33,7 @@ Abstract
 </summary>
 
 <p>
-Please note that I am not claiming any intellectual property with regard to this game; many people have played games of this type. I am writing it up for the Just Enviro Econ website so that it is a module that folks can easily grab and use for their classes if they don’t already know about it, with a particular focus not only on the non-cooperative equilibrium but on other dynamics.
+Please note that I am not claiming any intellectual property with regard to this game; this game is likely not novel. I am writing it up for the Just Enviro Econ website so that it is a module that folks can easily grab and use for their classes, with advice about how to discuss equity.
 </p>
 
 </details>
