@@ -111,10 +111,8 @@ Growth and/or Development
 </summary>
 
 {% for post in site.publications reversed %}
-  {% if post.type == 'pr' %}
-    {% if post.category == 'growth and development' %}
+  {% if post.category == 'growth and development' %}
     {% include archive-single-publications.html %}
-    {% endif %}
   {% endif %}
 {% endfor %}
 
