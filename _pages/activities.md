@@ -141,10 +141,8 @@ Market Solutions
 </summary>
 
 {% for post in site.activities reversed %}
-  {% if post.type == 'pr' %}
-    {% if post.category == 'market solutions' %}
+  {% if post.category == 'market solutions' %}
     {% include archive-single-activities.html %}
-    {% endif %}
   {% endif %}
 {% endfor %}
 
