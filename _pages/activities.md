@@ -128,10 +128,8 @@ Market Failure
 </summary>
 
 {% for post in site.activities reversed %}
-  {% if post.type == 'pr' %}
-    {% if post.category == 'market failure' %}
+  {% if post.category == 'market failure' %}
     {% include archive-single-activities.html %}
-    {% endif %}
   {% endif %}
 {% endfor %}
 
