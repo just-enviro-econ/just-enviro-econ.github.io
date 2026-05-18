@@ -10,6 +10,29 @@ author_profile: true
 
 This site includes readings that can be assigned to students. Click on each category to find relevant papers associated with that topic. 
 
+<input type="text" id="publications-search" placeholder="Search " style="width:100%; padding:8px; margin-bottom:16px; font-size:1em; border:4px solid #003366; border-radius:4px; box-sizing:border-box;">
+
+<script>
+document.getElementById('publications-search').addEventListener('input', function() {
+  var query = this.value.toLowerCase();
+  document.querySelectorAll('details').forEach(function(detail) {
+    var items = detail.querySelectorAll('.list__item');
+    var hasVisible = false;
+    items.forEach(function(item) {
+      var match = query === '' || item.textContent.toLowerCase().includes(query);
+      item.style.display = match ? '' : 'none';
+      if (match) hasVisible = true;
+    });
+    if (query === '') {
+      detail.removeAttribute('open');
+    } else if (hasVisible) {
+      detail.setAttribute('open', '');
+    } else {
+      detail.removeAttribute('open');
+    }
+  });
+});
+</script>
 
 {% include base_path %}
 

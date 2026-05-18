@@ -12,8 +12,29 @@ redirect_from:
 
 This page lists all the resources by topic. Click on each category and type of activity within the category to find resources. 
 
+<input type="text" id="all-search" placeholder="Search " style="width:100%; padding:8px; margin-bottom:16px; font-size:1em; border:4px solid #003366; border-radius:4px; box-sizing:border-box;">
 
-
+<script>
+document.getElementById('all-search').addEventListener('input', function() {
+  var query = this.value.toLowerCase();
+  document.querySelectorAll('details').forEach(function(detail) {
+    var items = detail.querySelectorAll('.list__item');
+    var hasVisible = false;
+    items.forEach(function(item) {
+      var match = query === '' || item.textContent.toLowerCase().includes(query);
+      item.style.display = match ? '' : 'none';
+      if (match) hasVisible = true;
+    });
+    if (query === '') {
+      detail.removeAttribute('open');
+    } else if (hasVisible) {
+      detail.setAttribute('open', '');
+    } else {
+      detail.removeAttribute('open');
+    }
+  });
+});
+</script>
 
 <details open>
   <summary class= "id2" > General </summary>
