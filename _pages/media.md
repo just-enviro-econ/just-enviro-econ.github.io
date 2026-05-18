@@ -11,7 +11,7 @@ author_profile: true
 
 This page includes a list of media, either podcasts or videos, categorized by topic. Click on each topic to find the relevant media. 
 
-<input type="text" id="media-search" placeholder="Search media by title..." style="width:100%; padding:8px; margin-bottom:16px; font-size:1em; border:1px solid #ccc; border-radius:4px; box-sizing:border-box;">
+<input type="text" id="media-search" placeholder="Search media by title..." style="width:100%; padding:8px; margin-bottom:16px; font-size:1em; border:2px solid #003366; border-radius:4px; box-sizing:border-box;">
 
 <script>
 document.getElementById('media-search').addEventListener('input', function() {
@@ -49,7 +49,7 @@ General
 </details>
 
 
-<details open>
+<details close>
 <summary class="id1">
 Benefit/Cost Analysis
 </summary>
