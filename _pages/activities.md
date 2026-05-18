@@ -58,50 +58,6 @@ Climate Change
 
 </details>
 
-
-
-<details close>
-<summary >
-Energy
-</summary>
-
-{% for post in site.activities reversed %}
-  {% if post.category == 'energy' %}
-    {% include archive-single-activities.html %}
-  {% endif %}
-{% endfor %}
-
-</details>
-
-<details close>
-<summary class = "id1">
-Environmental Justice
-</summary>
-
-{% for post in site.activities reversed %}
-    {% if post.category == 'environmental justice' %}
-      {% include archive-single-activities.html %}
-    {% endif %}
-{% endfor %}
-
-</details>
-
-
-<details close>
-<summary class = "id2">
-Growth and/or Development
-</summary>
-
-{% for post in site.activities reversed %}
-  {% if post.type == 'pr' %}
-    {% if post.category == 'growth and development' %}
-    {% include archive-single-activities.html %}
-    {% endif %}
-  {% endif %}
-{% endfor %}
-
-</details>
-
 <details close>
 <summary>
 Efficiency, Market Failure, and Market Solutions
@@ -115,6 +71,47 @@ Efficiency, Market Failure, and Market Solutions
 
 </details>
 
+<details close>
+<summary class = "id1">
+Energy
+</summary>
+
+{% for post in site.activities reversed %}
+  {% if post.category == 'energy' %}
+    {% include archive-single-activities.html %}
+  {% endif %}
+{% endfor %}
+
+</details>
+
+<details close>
+<summary class = "id2">
+Environmental Justice
+</summary>
+
+{% for post in site.activities reversed %}
+    {% if post.category == 'environmental justice' %}
+      {% include archive-single-activities.html %}
+    {% endif %}
+{% endfor %}
+
+</details>
+
+
+<details close>
+<summary >
+Growth and/or Development
+</summary>
+
+{% for post in site.activities reversed %}
+  {% if post.type == 'pr' %}
+    {% if post.category == 'growth and development' %}
+    {% include archive-single-activities.html %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+</details>
 
 
 <details close>
