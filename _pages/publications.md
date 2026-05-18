@@ -5,25 +5,17 @@ permalink: /publications/
 author_profile: true
 ---
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8CEVZ95BRH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-8CEVZ95BRH');
-</script>
 
 <!-- Table 1 from paper, Course Topics: Market failure, efficiency and/or markets, climate change, market solutions, natural resources, valuation, non-market valuation, benefit/cost analysis, growth and/or development, environmental justice, population -->
 
+This site includes readings that can be assigned to students. Click on each category to find relevant papers associated with that topic. 
 
 
 {% include base_path %}
 
 <br>
 
-<details open>
+<details close>
 <summary>
 General
 </summary>
@@ -67,11 +59,11 @@ Climate Change
 
 <details close>
 <summary>
-Efficiency and/or Markets
+Efficiency, Market Failure, and Market Solutions
 </summary>
 
 {% for post in site.publications reversed %}
-  {% if post.category == 'efficiency' %}
+  {% if post.category == 'efficiency' or post.category == 'market failure' or post.category == 'market solutions' %}
     {% include archive-single-publications.html %}
   {% endif %}
 {% endfor %}
@@ -91,7 +83,7 @@ Energy
 
 </details>
 
-<details open>
+<details close>
 <summary class = "id2">
 Environmental Justice
 </summary>
@@ -118,38 +110,11 @@ Growth and/or Development
 
 </details>
 
-<details open>
-<summary class="id1">
-Market Failure
-</summary>
 
-{% for post in site.publications reversed %}
-  {% if post.type == 'pr' %}
-    {% if post.category == 'market failure' %}
-    {% include archive-single-publications.html %}
-    {% endif %}
-  {% endif %}
-{% endfor %}
 
-</details>
 
-<details open>
-<summary class="id2">
-Market Solutions
-</summary>
-
-{% for post in site.publications reversed %}
-  {% if post.type == 'pr' %}
-    {% if post.category == 'market solutions' %}
-    {% include archive-single-publications.html %}
-    {% endif %}
-  {% endif %}
-{% endfor %}
-
-</details>
-
-<details open>
-<summary>
+<details close>
+<summary class = "id1">
 Natural Resources
 </summary>
 
@@ -164,8 +129,8 @@ Natural Resources
 </details>
 
 
-<details open>
-<summary class="id1">
+<details close>
+<summary class="id2">
 Non-market Solutions
 </summary>
 
@@ -179,8 +144,8 @@ Non-market Solutions
 
 </details>
 
-<details open>
-<summary class="id2">
+<details close>
+<summary>
 Valuation
 </summary>
 
@@ -195,7 +160,7 @@ Valuation
 </details>
 
 <details open>
-<summary>
+<summary class = "id1">
 Water
 </summary>
 
