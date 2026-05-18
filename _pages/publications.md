@@ -5,6 +5,7 @@ permalink: /readings/
 author_profile: true
 ---
 
+{% include base_path %}
 
 <!-- Table 1 from paper, Course Topics: Market failure, efficiency and/or markets, climate change, market solutions, natural resources, valuation, non-market valuation, benefit/cost analysis, growth and/or development, environmental justice, population -->
 
@@ -34,7 +35,7 @@ document.getElementById('publications-search').addEventListener('input', functio
 });
 </script>
 
-{% include base_path %}
+
 
 <br>
 
