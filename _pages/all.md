@@ -9,19 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8CEVZ95BRH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-8CEVZ95BRH');
-</script>
-
-{% include base_path %}
-
-This page lists all the resources by topic. 
+This page lists all the resources by topic. Click on each category and type of activity within the category to find resources. 
 
 
 
@@ -29,7 +18,7 @@ This page lists all the resources by topic.
 <details open>
   <summary class= "id2" > General </summary>
   <div class="content">
-    <details class="sub_detail" open>
+    <details class="sub_detail" close>
       <summary> Readings </summary>
       <div class="content">
           {% for post in site.publications reversed %}
@@ -138,13 +127,13 @@ This page lists all the resources by topic.
 </details>
 
 <details open>
-  <summary> Efficiency and/or Markets </summary>
+  <summary> Efficiency, Market Failure, and Market Solutions </summary>
   <div class="content">
     <details class="sub_detail" close>
       <summary> Readings </summary>
       <div class="content">
           {% for post in site.publications reversed %}
-              {% if post.category == 'efficiency' %}
+              {% if post.category == 'efficiency' or post.category == 'market failure' or post.category == 'market solutions' %}
                 {% include archive-single-publications.html %}
               {% endif %}
           {% endfor %}
@@ -154,7 +143,7 @@ This page lists all the resources by topic.
       <summary> Activities and Teaching Advice</summary>
       <div class="content">
           {% for post in site.activities reversed %}
-              {% if post.category == 'efficiency' %}
+              {% if post.category == 'efficiency' or post.category == 'market failure' or post.category == 'market solutions' %}
                 {% include archive-single-activities.html %}
               {% endif %}
           {% endfor %}
@@ -164,7 +153,7 @@ This page lists all the resources by topic.
       <summary> Media </summary>
       <div class="content">
         {% for post in site.media reversed %}
-          {% if post.category == 'efficiency' %}
+          {% if post.category == 'efficiency' or post.category == 'market failure' or post.category == 'market solutions' %}
             {% include archive-single-podcasts.html %}
           {% endif %}
         {% endfor %}
@@ -286,79 +275,6 @@ This page lists all the resources by topic.
   </div>
 </details>
 
-<details open>
-  <summary> Market Failure </summary>
-  <div class="content">
-    <details class="sub_detail" close>
-      <summary> Readings </summary>
-      <div class="content">
-          {% for post in site.publications reversed %}
-              {% if post.category == 'market failure' %}
-                {% include archive-single-publications.html %}
-              {% endif %}
-          {% endfor %}
-      </div>
-    </details>
-    <details class="sub_detail" close>
-      <summary> Activities and Teaching Advice</summary>
-      <div class="content">
-          {% for post in site.activities reversed %}
-              {% if post.category == 'market failure' %}
-                {% include archive-single-activities.html %}
-              {% endif %}
-          {% endfor %}
-      </div>
-    </details>
-    <details class="sub_detail" close>
-      <summary> Media </summary>
-      <div class="content">
-        {% for post in site.media reversed %}
-          {% if post.category == 'market failure' %}
-            {% include archive-single-podcasts.html %}
-          {% endif %}
-        {% endfor %}
-      </div>
-    </details>
-
-  </div>
-</details>
-
-<details open>
-  <summary class = "id2"> Market Solutions </summary>
-  <div class="content">
-    <details class="sub_detail" close>
-      <summary> Readings </summary>
-      <div class="content">
-          {% for post in site.publications reversed %}
-              {% if post.category == 'market solutions' %}
-                {% include archive-single-publications.html %}
-              {% endif %}
-          {% endfor %}
-      </div>
-    </details>
-    <details class="sub_detail" close>
-      <summary> Activities and Teaching Advice</summary>
-      <div class="content">
-          {% for post in site.activities reversed %}
-              {% if post.category == 'market solutions' %}
-                {% include archive-single-activities.html %}
-              {% endif %}
-          {% endfor %}
-      </div>
-    </details>
-    <details class="sub_detail" close>
-      <summary> Media </summary>
-      <div class="content">
-        {% for post in site.media reversed %}
-          {% if post.category == 'market solutions' %}
-            {% include archive-single-podcasts.html %}
-          {% endif %}
-        {% endfor %}
-      </div>
-    </details>
-
-  </div>
-</details>
 
 <details open>
   <summary> Natural Resources </summary>
