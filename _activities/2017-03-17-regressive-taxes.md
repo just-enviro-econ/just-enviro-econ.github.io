@@ -7,7 +7,7 @@ date: 2017-03-17
 venue: 'The Journal of Economic Education'
 paperurl: 'https://doi.org/10.1080/00220485.2017.1285736'
 citation: 'Duke, J. and Sassoon, D. (2017). &quot; A classroom game on a negative externality correcting tax: Revenue return, regressivity, and the double dividend &quot; <i>  The Journal of Economic Education </i>. 48(2): 65-73'
-category: 'market solution '
+category: 'market solutions'
 type: 'pr'
 tags: 
 - externalities 
