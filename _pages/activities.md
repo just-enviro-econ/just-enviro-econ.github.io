@@ -5,15 +5,6 @@ permalink: /activities/
 author_profile: true
 ---
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8CEVZ95BRH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-8CEVZ95BRH');
-</script>
 
 <!-- Table 1 from paper, Course Topics: Market failure, efficiency and/or markets, climate change, market solutions, natural resources, valuation, non-market valuation, benefit/cost analysis, growth and/or development, environmental justice, population -->
 
@@ -23,9 +14,9 @@ author_profile: true
 
 <br>
 
-This site includes articles that describe classroom activities or teaching advice. 
+This site includes articles that describe classroom activities or teaching advice. Click on each category to find relevant material to that topic. 
 
-<details open>
+<details close>
 <summary>
 General
 </summary>
