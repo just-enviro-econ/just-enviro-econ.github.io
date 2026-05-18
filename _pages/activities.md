@@ -59,21 +59,9 @@ Climate Change
 </details>
 
 
-<details open>
-<summary>
-Efficiency and/or Markets
-</summary>
-
-{% for post in site.activities reversed %}
-  {% if post.category == 'efficiency' %}
-    {% include archive-single-activities.html %}
-  {% endif %}
-{% endfor %}
-
-</details>
 
 <details open>
-<summary class = "id1">
+<summary >
 Energy
 </summary>
 
@@ -86,7 +74,7 @@ Energy
 </details>
 
 <details open>
-<summary class = "id2">
+<summary class = "id1">
 Environmental Justice
 </summary>
 
@@ -100,7 +88,7 @@ Environmental Justice
 
 
 <details open>
-<summary>
+<summary class = "id2">
 Growth and/or Development
 </summary>
 
@@ -115,33 +103,22 @@ Growth and/or Development
 </details>
 
 <details open>
-<summary class = "id1">
-Market Failure
-</summary>
-
-{% for post in site.activities reversed %}
-  {% if post.category == 'market failure' or post.category == 'market solutions' %}
-    {% include archive-single-activities.html %}
-  {% endif %}
-{% endfor %}
-
-</details>
-
-<details open>
-<summary class="id2">
-Market Solutions
-</summary>
-
-{% for post in site.activities reversed %}
-  {% if post.category == 'market solutions' %}
-    {% include archive-single-activities.html %}
-  {% endif %}
-{% endfor %}
-
-</details>
-
-<details open>
 <summary>
+Efficiency, Market Failure, and Market Solutions
+</summary>
+
+{% for post in site.activities reversed %}
+  {% if post.category == 'efficiency' or post.category == 'market failure' or post.category == 'market solutions' %}
+    {% include archive-single-activities.html %}
+  {% endif %}
+{% endfor %}
+
+</details>
+
+
+
+<details open>
+<summary class = "id1">
 Natural Resources
 </summary>
 
@@ -157,7 +134,7 @@ Natural Resources
 
 
 <details open>
-<summary class = "id1">
+<summary class = "id2">
 Non-market Solutions
 </summary>
 
@@ -173,7 +150,7 @@ Non-market Solutions
 </details>
 
 <details open>
-<summary class="id2">
+<summary>
 Valuation
 </summary>
 
@@ -188,7 +165,7 @@ Valuation
 </details>
 
 <details open>
-<summary>
+<summary class = "id1">
 Water
 </summary>
 
