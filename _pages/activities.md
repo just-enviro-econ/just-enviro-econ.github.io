@@ -128,7 +128,7 @@ Market Failure
 </summary>
 
 {% for post in site.activities reversed %}
-  {% if post.category == 'market failure' %}
+  {% if post.category == 'market failure' or post.category == 'market solutions' %}
     {% include archive-single-activities.html %}
   {% endif %}
 {% endfor %}
