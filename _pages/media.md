@@ -11,6 +11,29 @@ author_profile: true
 
 This page includes a list of media, either podcasts or videos, categorized by topic. Click on each topic to find the relevant media. 
 
+<input type="text" id="media-search" placeholder="Search media by title..." style="width:100%; padding:8px; margin-bottom:16px; font-size:1em; border:1px solid #ccc; border-radius:4px; box-sizing:border-box;">
+
+<script>
+document.getElementById('media-search').addEventListener('input', function() {
+  var query = this.value.toLowerCase();
+  document.querySelectorAll('details').forEach(function(detail) {
+    var items = detail.querySelectorAll('.list__item');
+    var hasVisible = false;
+    items.forEach(function(item) {
+      var match = query === '' || item.textContent.toLowerCase().includes(query);
+      item.style.display = match ? '' : 'none';
+      if (match) hasVisible = true;
+    });
+    if (query === '') {
+      detail.removeAttribute('open');
+    } else if (hasVisible) {
+      detail.setAttribute('open', '');
+    } else {
+      detail.removeAttribute('open');
+    }
+  });
+});
+</script>
 
 <details close>
 <summary>
