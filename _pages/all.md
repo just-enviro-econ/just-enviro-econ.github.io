@@ -424,7 +424,7 @@ This page lists all the resources by topic. Click on each category and type of a
   </div>
 </details>
 
-* For readings and publications, please go to [Readings](/publications/)
+* For readings and publications, please go to [Readings](/readingss/)
 * For papers with pedagogy activities and teaching advice, please to go [Activities and Teaching Advice](/activities/)
 * For podcasts and videos, please go to [Media](/media/)
 * For a sample syllabus, please go to [Syllabus](/syllabus/)
