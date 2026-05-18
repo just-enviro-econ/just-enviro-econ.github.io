@@ -7,15 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8CEVZ95BRH"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-8CEVZ95BRH');
-</script>
 
 
 Welcome! This website accompanies our paper titled: **From Efficiency to Inclusion: The Present and Future of Undergraduate Teaching in Environmental and Natural Resource Economics** [Link coming Soon]
