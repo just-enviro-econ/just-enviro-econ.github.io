@@ -25,12 +25,12 @@ We welcome submissions that support instructors who want to incorporate equity a
 
 ## Submit a Reading/Publication or Pedagogy Paper
 Have a reading, article, report, or pedagogy-focused paper that would be valuable for teaching equity and justice in ENRE courses?
-[Submit it Here](https://forms.gle/cGMYWj4LrjzwSqLT6)
+[Submit it Here](https://forms.gle/CzcPiCMYe95yqZ2n9)
 
 ## Submit Media (Podcast or Video)
 Know of a podcast episode, video, or other media that could help instructors introduce equity and justice topics?
-[Submit it Here](https://forms.gle/eYvAtrYVuvJALBRaA)
+[Submit it Here](https://forms.gle/aj4rRxS9avhDRoAm6)
 
 ## Provide Feedback on the Website
 Your feedback helps improve this resource hub for instructors.
-[Share your suggestions here](https://forms.gle/8C8QV5mnuWYX3oFq5)
+[Share your suggestions here](https://forms.gle/3BJ6LwbxH2iPz3oW6)
