@@ -5,7 +5,7 @@ permalink: /activities/card-game-free-rider-problem-and-cooperation
 excerpt: ''
 date: 2026-01-04
 venue: 
-paperurl: 'https://docs.google.com/document/d/1XKqt5T3odRkbqo9YvalUDW-bD0Znoa5KL-Fd_W8pOVE/edit?usp=sharing'
+paperurl: 'https://drive.google.com/file/d/19Ded-VKh0ExU_vdPZpIUPO_aIPg70Jn3/view?usp=drive_link'
 citation: ' &quot;Red / Black Card Classroom Game to Show Free Rider Problem and Cooperation &quot; <i>  </i>.'
 category: 'market failure'
 type: 'other'

@@ -5,7 +5,7 @@ permalink: /activities/pollution-control-policy-game
 excerpt: ''
 date: 2026-01-04
 venue: 
-paperurl: 'https://docs.google.com/document/d/1YnpCjviB_rXJSZLlYzl9LlbRDJ71LV2Rux-JXMNpXPY/edit?tab=t.0'
+paperurl: 'https://drive.google.com/file/d/1uKQfJSorP84WnMGTKvVazXuZX6nQ08a4/view?usp=drive_link'
 citation: ' &quot;Red / Pollution Control Policy Game &quot; <i>  </i>.'
 category: 'market solutions'
 type: 'other'
