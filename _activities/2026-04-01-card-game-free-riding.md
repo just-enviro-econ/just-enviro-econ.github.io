@@ -13,7 +13,7 @@ tags:
 - externality
 - pollution
 - cooperation
-co-authors: Unknown
+co-authors: 
 ---
 
 <!-- Google tag (gtag.js) -->
