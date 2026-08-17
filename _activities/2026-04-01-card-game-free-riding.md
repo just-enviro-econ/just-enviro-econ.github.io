@@ -3,7 +3,7 @@ title: "Red / Black Card Classroom Game to Show Free Rider Problem and Cooperati
 collection: activities
 permalink: /activities/card-game-free-rider-problem-and-cooperation
 excerpt: ''
-date: 
+date: '2026-04-01'
 venue: 
 paperurl: 'https://drive.google.com/file/d/19Ded-VKh0ExU_vdPZpIUPO_aIPg70Jn3/view?usp=drive_link'
 citation: ' &quot;Red / Black Card Classroom Game to Show Free Rider Problem and Cooperation &quot; <i>  </i>.'
