@@ -5,7 +5,7 @@ permalink: /publication/income-inequality-pollution-environmental-kuznets-curve
 excerpt: ''
 date: 1998-05-01
 venue: 'Ecological Economics'
-paperurl: ' https://doi.org/10.1111/j.1468-0270.2008.00840.x'
+paperurl: 'https://doi.org/10.1016/S0921-8009(97)00177-8'
 citation: 'Torras, M. and Boyce, J. (1998). &quot; Income, inequality, and pollution: a reassessment of the environmental Kuznets Curve &quot; <i>  Ecological Economics </i>. 25(2): 147-160.'
 category: 'growth and development'
 tags: 
