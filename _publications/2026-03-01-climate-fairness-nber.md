@@ -5,7 +5,7 @@ permalink: /publication/climate-fairness-and-growth-carbon-budget
 excerpt: ''
 date: 2026-03-01
 venue: 'NBER Working Paper'
-paperurl: '10.3386/w34978'
+paperurl: 'https://doi.org/10.3386/w34978'
 citation: 'Hale, G., Halling, M., Paulus, N.A., & Pham, H. (2026). &quot;Climate Fairness and Growth: Allocating the Remaining Carbon Budget &quot; <i>  NBER Working Paper  </i>. '
 category: 'growth and development'
 tags: 
