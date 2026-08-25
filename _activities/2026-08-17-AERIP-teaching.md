@@ -3,7 +3,7 @@ title: "Association for Economic Research of Indigenous Peoples Teaching Resourc
 collection: activities
 permalink: /activities/aerip-teaching-resources
 excerpt: ''
-date: 
+date: 2026-08-01
 venue: 
 paperurl: 'https://www.aeripecon.org/teaching-resources'
 citation: ' &quot;Red / Association for Economic Research of Indigenous Peoples Teaching Resources &quot; <i>  </i>.'
