@@ -7,8 +7,7 @@ tags:
   - development
   - colonialism
   - community-based governance
-category: "efficiency or markets"
-type: "podcast"
+category: "efficiency"
 publisher: "NPR Planet Money"
 paperurl: 'https://www.npr.org/2020/01/31/801645818/episode-969-the-island-no-one-owns'
 duration: "29:09"
