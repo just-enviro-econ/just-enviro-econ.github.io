@@ -7,13 +7,11 @@ date: 2026-06-25
 venue: 'Review of Environmental Economics and Policy'
 paperurl: 'https://doi.org/10.1086/742029'
 citation: 'Hernandez Carballo, I., Verdolini, E., Steckel, J., Tavoni, M. & Vona, F. (2026). &quot;The Economics of a Just Transition &quot; <i>  Review of Environmental Economics and Policy  </i>. 20(2):260-282 .'
-category: 'growth and development'
+category: 'climate change'
 tags: 
-- 'payments for ecosystem services'
-- 'poverty'
-- 'conservation'
-- 'development'
+- 'climate policy'
 - 'inequality'
+- 'justice'
 type: 'pr'
 co-authors: 'Ireri Hernandez Carballo, Elena Verdolini, Jan Christoph Steckel, Massimo Tavoni, and Francesco Vona'
 ---
