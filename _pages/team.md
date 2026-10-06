@@ -28,10 +28,6 @@ Our team includes:
             <figcaption><a href="https://econ.williams.edu/profile/saj2/" target="_blank"> Sarah Jacobson </a></figcaption>
         </figure>
         <figure>
-            <img src="/images/co-authors/jill_caviglia_harris.png" width="100" height="auto">
-            <figcaption><a href="https://jlcaviglia-harris.wixsite.com/jlcaviglia-harris" target="_blank">Jill Caviglia-Harris</a></figcaption>
-        </figure>
-        <figure>
             <img src="/images/co-authors/fidel_gonzalez.png" width="100" height="auto">
             <figcaption><a href="https://sites.google.com/view/fidelgonzalez" target="_blank">Fidel González</a></figcaption>
         </figure>
@@ -54,4 +50,4 @@ Our team includes:
         <!-- Add more images as needed -->
     </div>
 </body>
-
+ 
