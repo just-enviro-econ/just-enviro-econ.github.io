@@ -6,14 +6,14 @@ excerpt: ''
 date: 2026-03-01
 venue: 'NBER Working Paper'
 paperurl: 'https://www.nber.org/papers/w34929'
-citation: 'Drupp, M., Kornek, U., Meya, J., and Sager, L. (2025). &quot; Restoring Nature, Creating Wealth: Evidence from Rural Households in Africa &quot; <i>  NBER Working Paper  </i>.'
+citation: 'Heal, G., Rizzi, C., Xu, S. (2025). &quot; Restoring Nature, Creating Wealth: Evidence from Rural Households in Africa &quot; <i>  NBER Working Paper  </i>.'
 category: 'growth and development'
 tags: 
 - 'natural capital'
 - 'Trees for the Future'
 - 'development'
 type: 'wp'
-co-authors: 'Moritz A. Drupp, Ulrike Kornek, Jasper N. Meya, and Lutz Sager'
+co-authors: 'Geoffrey Heal, Claudio Rizzi, and Simon Xu'
 ---
 
 <!-- Google tag (gtag.js) -->
